@@ -1,0 +1,24 @@
+{
+  "_aciklama": "Bildirim gönderilecek TÜİK haber bültenleri. 'hepsi': true yaparsan her yeni haber bülteninde bildirim gelir. Anahtar kelimeler bülten başlığında (küçük harf) aranır.",
+  "hepsi": false,
+  "anahtar_kelimeler": [
+    "tüketici fiyat endeksi",
+    "üretici fiyat endeksi",
+    "işgücü istatistikleri",
+    "gayrisafi yurt içi hasıla",
+    "sanayi üretim endeksi",
+    "dış ticaret istatistikleri",
+    "dış ticaret endeksleri",
+    "satış hacim endeksi",
+    "ciro endeks",
+    "güven endeks",
+    "konut ve iş yeri satış",
+    "ücretli çalışan",
+    "inşaat üretim endeksi",
+    "hizmet üretim endeksi",
+    "inşaat maliyet endeksi",
+    "tarım ürünleri üretici fiyat",
+    "tarımsal girdi fiyat"
+  ],
+  "haric": []
+}
