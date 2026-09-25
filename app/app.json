@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "TÜİK Cep",
+    "slug": "tuik-cep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sefa.tuikcep",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#C8102E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": ["POST_NOTIFICATIONS"],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#C8102E",
+          "defaultChannel": "tuik"
+        }
+      ]
+    ],
+    "extra": {
+      "githubRepo": "sidris/tuik-cep"
+    }
+  }
+}
