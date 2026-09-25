@@ -20,6 +20,7 @@ import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
 import * as Clipboard from 'expo-clipboard';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { sharePdf } from './src/pdf';
 
 // ---------------------------------------------------------------- tipler
 
@@ -119,6 +120,8 @@ export default function App() {
   const [token, setToken] = useState<string | null>(null);
   const [tokenErr, setTokenErr] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  const [pdfBusy, setPdfBusy] = useState(false);
+  const [pdfErr, setPdfErr] = useState<string | null>(null);
   const pendingOpen = useRef<{ id: number; url?: string } | null>(null);
 
   const load = useCallback(async (r: string = repo) => {
@@ -326,8 +329,20 @@ export default function App() {
 
           {!!it.next_release && <Text style={s.next}>Sonraki yayım: {it.next_release}</Text>}
 
-          <Pressable style={[s.primaryBtn, { marginTop: 24 }]} onPress={() => Linking.openURL(it.url)}>
-            <Text style={s.primaryBtnText}>TÜİK'te aç</Text>
+          <Pressable
+            style={[s.primaryBtn, { marginTop: 24 }, pdfBusy && { opacity: 0.6 }]}
+            disabled={pdfBusy}
+            onPress={async () => {
+              setPdfErr(null);
+              setPdfBusy(true);
+              try { await sharePdf(it); } catch (e: any) { setPdfErr(e?.message ?? String(e)); } finally { setPdfBusy(false); }
+            }}
+          >
+            {pdfBusy ? <ActivityIndicator color="#FFFFFF" /> : <Text style={s.primaryBtnText}>PDF olarak paylaş</Text>}
+          </Pressable>
+          {pdfErr && <Text style={[s.err, { marginTop: 8 }]}>{pdfErr}</Text>}
+          <Pressable style={s.secondaryBtn} onPress={() => Linking.openURL(it.url)}>
+            <Text style={s.secondaryBtnText}>TÜİK'te aç</Text>
           </Pressable>
         </ScrollView>
       </View>
