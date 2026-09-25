@@ -18,7 +18,9 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "permissions": ["POST_NOTIFICATIONS"],
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ],
       "predictiveBackGestureEnabled": false
     },
     "plugins": [
@@ -32,7 +34,11 @@
       ]
     ],
     "extra": {
-      "githubRepo": "sidris/tuik-cep"
-    }
+      "githubRepo": "sidris/tuik-cep",
+      "eas": {
+        "projectId": "ae6eb291-b0a8-40be-87e7-8c02a185cc88"
+      }
+    },
+    "owner": "sidrisoglu"
   }
 }
