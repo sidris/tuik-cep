@@ -1,0 +1,60 @@
+name: TÜİK izleyici
+
+on:
+  schedule:
+    # Yoğun pencere: hafta içi 09:35 TR'de başlar, 10:30 TR'ye kadar 15 sn'de bir kontrol eder.
+    # (GitHub zamanlanmış işleri birkaç dakika geç başlatabilir; bu yüzden erken başlıyoruz.)
+    - cron: "35 6 * * 1-5"
+    # Günün geri kalanı için yedek kontrol (~10 dk'da bir; GitHub bazen geciktirir).
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "once | test-push | burst"
+        default: once
+      press_id:
+        description: "test-push için bülten no (boşsa feed'deki son bülten)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tuik-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      EXPO_PUSH_TOKENS: ${{ secrets.EXPO_PUSH_TOKENS }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+      GIT_COMMIT: "1"
+      TZ: Europe/Istanbul
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: watcher/requirements.txt
+      - run: pip install -r watcher/requirements.txt
+      - name: git kimliği
+        run: |
+          git config user.name "tuik-cep-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Çalıştır
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          if [ "${{ github.event.schedule }}" = "35 6 * * 1-5" ]; then MODE=burst; fi
+          case "$MODE" in
+            burst)     python watcher/tuik_watcher.py burst --until-utc 07:30 --interval 15 ;;
+            test-push) if [ -n "${{ github.event.inputs.press_id }}" ]; then
+                         python watcher/tuik_watcher.py test-push --id "${{ github.event.inputs.press_id }}"
+                       else
+                         python watcher/tuik_watcher.py test-push
+                       fi ;;
+            *)         python watcher/tuik_watcher.py once ;;
+          esac
