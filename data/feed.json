@@ -1,0 +1,267 @@
+[
+ {
+  "id": 58158,
+  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
+  "period": "Eylül 2026",
+  "date": "2026-09-24T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58158",
+  "headline": "Güven endeksi hizmet sektöründe aynı kaldı, perakende ticaret sektöründe %1,1 arttı, inşaat sektöründe %0,2 azaldı",
+  "next_release": "26 Ekim 2026",
+  "ai": {
+   "baslik": "Eylül'de güven endeksi perakendede %1,1 arttı, inşaatta %0,2 azaldı, hizmette aynı kaldı",
+   "ozet": "Mevsim etkilerinden arındırılmış güven endeksi Eylül 2026'da perakende ticaret sektöründe bir önceki aya göre %1,1 artarak 111,3 değerini aldı. Hizmet sektörü güven endeksi aynı düzeyde kalarak 111,9 olurken, inşaat sektörü güven endeksi %0,2 azalarak 83,0 değerine geriledi.",
+   "one_cikanlar": [
+    "Hizmet sektörü güven endeksi Ağustos ayındaki 111,9 seviyesini korudu.",
+    "Perakende ticaret sektörü güven endeksi 110,1'den 111,3'e yükseldi.",
+    "İnşaat sektörü güven endeksi 83,1'den 83,0'a indi.",
+    "Perakendede gelecek 3 aylık dönemde iş hacmi-satışlar beklentisi %3,5 artarak 128,0 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Hizmet sektörü güven endeksi",
+     "deger": "111,9",
+     "degisim": "%0,0"
+    },
+    {
+     "etiket": "Perakende ticaret sektörü güven endeksi",
+     "deger": "111,3",
+     "degisim": "%1,1"
+    },
+    {
+     "etiket": "İnşaat sektörü güven endeksi",
+     "deger": "83,0",
+     "degisim": "-%0,2"
+    },
+    {
+     "etiket": "Hizmet talep beklentisi (gelecek 3 ay)",
+     "deger": "115,9",
+     "degisim": "-%1,3"
+    },
+    {
+     "etiket": "Perakende satış beklentisi (gelecek 3 ay)",
+     "deger": "128,0",
+     "degisim": "%3,5"
+    },
+    {
+     "etiket": "İnşaat kayıtlı siparişler düzeyi",
+     "deger": "80,4",
+     "degisim": "%1,9"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-25T20:45:46+00:00"
+ },
+ {
+  "id": 58177,
+  "title": "Tüketici Güven Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-09-22T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58177",
+  "headline": "Tüketici güven endeksi 91,9 oldu",
+  "next_release": "22 Ekim 2026",
+  "ai": {
+   "baslik": "Tüketici güven endeksi Eylül 2026'da %1,3 artarak 91,9 oldu",
+   "ozet": "TÜİK ve TCMB işbirliği ile yürütülen tüketici eğilim anketi sonuçlarına göre tüketici güven endeksi, Ağustos ayında 90,8 iken Eylül ayında %1,3 oranında artarak 91,9 oldu. Gelecek 12 aylık dönemde dayanıklı tüketim mallarına harcama yapma düşüncesi %3,6 artışla 108,8 değerine ulaştı. Mevcut dönemde hanenin maddi durumu endeksi ise %0,1 düşüşle 75,3'e geriledi.",
+   "one_cikanlar": [
+    "Tüketici güven endeksi Eylül ayında %1,3 artışla 91,9'a yükseldi.",
+    "Gelecek 12 aylık dönemde dayanıklı tüketim mallarına harcama yapma düşüncesi %3,6 arttı.",
+    "Mevcut dönemde hanenin maddi durumu endeksi %0,1 azalarak 75,3 oldu.",
+    "Gelecek 12 aylık dönemde hanenin maddi durum beklentisi %0,6 artarak 93,7'ye çıktı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Tüketici güven endeksi",
+     "deger": "91,9",
+     "degisim": "%1,3"
+    },
+    {
+     "etiket": "Mevcut dönemde hanenin maddi durumu",
+     "deger": "75,3",
+     "degisim": "-%0,1"
+    },
+    {
+     "etiket": "Hanenin maddi durum beklentisi",
+     "deger": "93,7",
+     "degisim": "%0,6"
+    },
+    {
+     "etiket": "Genel ekonomik durum beklentisi",
+     "deger": "89,8",
+     "degisim": "%0,5"
+    },
+    {
+     "etiket": "Dayanıklı tüketim mallarına harcama düşüncesi",
+     "deger": "108,8",
+     "degisim": "%3,6"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-25T20:45:52+00:00"
+ },
+ {
+  "id": 58110,
+  "title": "Yurt Dışı Üretici Fiyat Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-09-21T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58110",
+  "headline": "Yurt Dışı Üretici Fiyat Endeksi (YD-ÜFE) yıllık %32,60 arttı, aylık %3,61 arttı",
+  "next_release": "20 Ekim 2026",
+  "ai": {
+   "baslik": "YD-ÜFE Ağustos 2026'da yıllık %32,60, aylık %3,61 arttı",
+   "ozet": "Yurt Dışı Üretici Fiyat Endeksi (YD-ÜFE), 2026 yılı Ağustos ayında bir önceki aya göre %3,61, bir önceki yılın aynı ayına göre %32,60 artış kaydetti. Endeks bir önceki ay olan Temmuz 2026'da yıllık %29,67 ve aylık %2,51 artmıştı. Yıllık bazda sektörlerden madencilik ve taş ocakçılığında %43,41 artış görülürken, ana sanayi gruplarında en belirgin artış %106,24 ile enerjide gerçekleşti.",
+   "one_cikanlar": [
+    "YD-ÜFE yıllık %32,60, aylık %3,61 arttı.",
+    "Yıllık artış bir önceki aydaki %29,67 seviyesinden %32,60'a çıktı.",
+    "İmalat ürünlerinde yıllık %32,41, aylık %3,61 artış kaydedildi.",
+    "Ana sanayi gruplarında yıllık en yüksek artış %106,24 ile enerji grubunda oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "YD-ÜFE Yıllık",
+     "deger": "%32,60",
+     "degisim": "Temmuz 2026: %29,67"
+    },
+    {
+     "etiket": "YD-ÜFE Aylık",
+     "deger": "%3,61",
+     "degisim": "Temmuz 2026: %2,51"
+    },
+    {
+     "etiket": "YD-ÜFE Yıl Başına Göre",
+     "deger": "%25,16",
+     "degisim": "Temmuz 2026: %20,80"
+    },
+    {
+     "etiket": "YD-ÜFE 12 Aylık Ortalama",
+     "deger": "%32,35",
+     "degisim": "Temmuz 2026: %31,99"
+    },
+    {
+     "etiket": "Madencilik ve Taş Ocakçılığı (Yıllık)",
+     "deger": "%43,41",
+     "degisim": "Temmuz 2026: %38,81"
+    },
+    {
+     "etiket": "İmalat (Yıllık)",
+     "deger": "%32,41",
+     "degisim": "Temmuz 2026: %29,50"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-25T20:46:06+00:00"
+ },
+ {
+  "id": 58084,
+  "title": "Tarımsal Girdi Fiyat Endeksi",
+  "period": "Temmuz 2026",
+  "date": "2026-09-21T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58084",
+  "headline": "Tarımsal girdi fiyat endeksi (Tarım-GFE) yıllık %27,62 arttı, aylık %0,20 arttı",
+  "next_release": "19 Ekim 2026",
+  "ai": {
+   "baslik": "Tarımsal Girdi Fiyat Endeksi Temmuz 2026'da yıllık %27,62, aylık %0,20 arttı",
+   "ozet": "Tarımsal Girdi Fiyat Endeksi (Tarım-GFE), 2026 yılı Temmuz ayında bir önceki aya göre %0,20, bir önceki yılın aynı ayına göre %27,62 arttı. Haziran ayında %32,06 olan yıllık artış oranı Temmuz'da %27,62'ye gerilerken, aylık bazda bir önceki aydaki %0,92'lik azalışın ardından %0,20 artış gerçekleşti. Yıllık bazda en yüksek artış %33,07 ile gübre ve toprak geliştiriciler alt grubunda kaydedildi.",
+   "one_cikanlar": [
+    "Tarım-GFE Temmuz ayında aylık %0,20, yıllık %27,62 artış gösterdi.",
+    "On iki aylık ortalamalara göre artış %33,39 olarak gerçekleşti.",
+    "Yıllık artışın en yüksek olduğu alt grup %33,07 ile gübre ve toprak geliştiriciler oldu.",
+    "Aylık artışın en yüksek olduğu alt grup %4,82 ile enerji ve yağlayıcılar oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Tarım-GFE (Endeks)",
+     "deger": "1 000,76",
+     "degisim": "%0,20"
+    },
+    {
+     "etiket": "Tarım-GFE (Yıllık)",
+     "deger": "%27,62",
+     "degisim": ""
+    },
+    {
+     "etiket": "Tarım-GFE (Aylık)",
+     "deger": "%0,20",
+     "degisim": ""
+    },
+    {
+     "etiket": "Tarımda kullanılan mal ve hizmetler (Yıllık)",
+     "deger": "%28,82",
+     "degisim": "-%0,01"
+    },
+    {
+     "etiket": "Tarımsal yatırıma katkı sağlayan mal ve hizmetler (Yıllık)",
+     "deger": "%20,53",
+     "degisim": "%1,48"
+    },
+    {
+     "etiket": "On iki aylık ortalamalara göre değişim",
+     "deger": "%33,39",
+     "degisim": ""
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-25T20:45:56+00:00"
+ },
+ {
+  "id": 58346,
+  "title": "Konut ve İş Yeri Satış İstatistikleri",
+  "period": "Ağustos 2026",
+  "date": "2026-09-17T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58346",
+  "headline": "İlk el konut satışları 44 bin 378, ikinci el konut satışları 83 bin 32 olarak gerçekleşti",
+  "next_release": "16 Ekim 2026",
+  "ai": {
+   "baslik": "Konut satışları Ağustos 2026'da %14,7 azalarak 127 bin 410 oldu",
+   "ozet": "Türkiye genelinde konut satışları Ağustos ayında bir önceki yılın aynı ayına göre %14,7 oranında azalarak 127 bin 410 olarak gerçekleşti. İlk el konut satışları %4,5 azalışla 44 bin 378 olurken, ikinci el konut satışları %19,4 düşüşle 83 bin 32'ye geriledi. İpotekli konut satışları ise yıllık bazda %7,2 artış göstererek 22 bin 131 adede ulaştı.",
+   "one_cikanlar": [
+    "Toplam konut satışları Ağustos'ta yıllık %14,7 azalarak 127 bin 410 oldu.",
+    "İkinci el konut satışları %19,4 azalışla 83 bin 32 seviyesine indi.",
+    "İpotekli konut satışları yıllık %7,2 artarak 22 bin 131'e yükseldi.",
+    "Yabancılara yapılan konut satışları %0,1 artışla bin 938 olarak gerçekleşti."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Toplam Konut Satışı",
+     "deger": "127 410",
+     "degisim": "%-14,7"
+    },
+    {
+     "etiket": "İlk El Konut Satışı",
+     "deger": "44 378",
+     "degisim": "%-4,5"
+    },
+    {
+     "etiket": "İkinci El Konut Satışı",
+     "deger": "83 032",
+     "degisim": "%-19,4"
+    },
+    {
+     "etiket": "İpotekli Konut Satışı",
+     "deger": "22 131",
+     "degisim": "%7,2"
+    },
+    {
+     "etiket": "Yabancılara Satış",
+     "deger": "bin 938",
+     "degisim": "%0,1"
+    },
+    {
+     "etiket": "Toplam İş Yeri Satışı",
+     "deger": "15 937",
+     "degisim": "%-6,4"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-25T20:46:10+00:00"
+ }
+]
