@@ -39,7 +39,7 @@ jobs:
         run: |
           npx -y eas-cli@latest build -p android --profile preview --non-interactive --no-wait --json > build.json
           cat build.json
-          URL=$(node -e "const b=require('./build.json');const x=Array.isArray(b)?b[0]:b;console.log('https://expo.dev/accounts/'+x.project.ownerAccount.name+'/projects/'+x.project.slug+'/builds/'+x.id)")
+          URL=$(node -e "const b=require('./build.json');const x=Array.isArray(b)?b[0]:b;console.log('https://expo.dev/accounts/'+x.app.ownerAccount.name+'/projects/'+x.app.slug+'/builds/'+x.id)")
           echo "### APK derlemesi başladı" >> $GITHUB_STEP_SUMMARY
           echo "10-15 dk sonra buradan indir: $URL" >> $GITHUB_STEP_SUMMARY
           echo "Derleme: $URL"
