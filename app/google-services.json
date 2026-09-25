@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317751244273",
+    "project_id": "tuik-cep",
+    "storage_bucket": "tuik-cep.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317751244273:android:1e9cd27cc9f1d343964050",
+        "android_client_info": {
+          "package_name": "com.sefa.tuikcep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkTtxLzpdSa3766pCabM8qel5g1dLNhuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
