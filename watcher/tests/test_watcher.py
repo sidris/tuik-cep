@@ -82,3 +82,42 @@ def test_first_run_seeds_without_push_then_detects_new(env):
     # tekrar çalışınca yeniden bildirim yok
     assert w.check_once() == 0
     assert len(pushes) == 1
+
+# ---------------------------------------------------------------- Telegram / PDF
+
+import telegram_pdf as tg  # noqa: E402
+
+SAMPLE = {
+    "id": 58177, "title": "Tüketici Güven Endeksi", "period": "Eylül 2026", "date": "2026-09-22T10:00:00",
+    "url": "https://veriportali.tuik.gov.tr/tr/press/58177", "headline": "Tüketici güven endeksi 91,9 oldu",
+    "next_release": "22 Ekim 2026",
+    "ai": {"baslik": "x", "ozet": "Endeks <91,9> & arttı.", "one_cikanlar": ["a", "b"],
+           "rakamlar": [{"etiket": "Endeks", "deger": "91,9", "degisim": "%1,3"}], "dogrulanamayan": [],
+           "model": "gemini-3.8-flash"},
+}
+
+
+def test_telegram_message_escapes_html():
+    m = tg.format_message(SAMPLE)
+    assert m.startswith("<b>TÜİK • Tüketici Güven Endeksi — Eylül 2026</b>")
+    assert "&lt;91,9&gt; &amp; arttı." in m
+    assert "Endeks: <b>91,9</b> (%1,3)" in m
+    assert len(m) <= 4000
+
+
+def test_pdf_builds_and_filename():
+    pdf = tg.build_pdf(SAMPLE)
+    assert pdf.startswith(b"%PDF") and len(pdf) > 5000
+    assert tg.pdf_filename(SAMPLE) == "TUIK_Tuketici_Guven_Endeksi_Eylul_2026.pdf"
+
+
+def test_chat_id_discovery(monkeypatch):
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "x")
+    monkeypatch.delenv("TELEGRAM_CHAT_ID", raising=False)
+    monkeypatch.setattr(tg, "_call", lambda method, **kw: [
+        {"message": {"chat": {"id": 5, "type": "private"}}},
+        {"my_chat_member": {"chat": {"id": -1001, "type": "channel", "title": "TÜİK Cep"}}},
+    ])
+    state = {}
+    assert tg.resolve_chat_id(state) == "-1001"
+    assert state["telegram_chat_id"] == "-1001"
