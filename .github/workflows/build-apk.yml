@@ -1,0 +1,45 @@
+name: APK derle
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: app
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Kontroller
+        run: |
+          test -n "$EXPO_TOKEN" || { echo "::error::EXPO_TOKEN secret eksik"; exit 1; }
+          test -f google-services.json || { echo "::error::app/google-services.json eksik (Firebase'den indirip repoya yükle)"; exit 1; }
+      - run: npm install --no-audit --no-fund
+      - name: EAS projesini oluştur / bağla
+        run: |
+          if ! grep -q '"projectId"' app.json; then
+            npx -y eas-cli@latest init --non-interactive --force
+            git config user.name "tuik-cep-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add app.json
+            git commit -m "EAS projectId eklendi" && git push || true
+          fi
+          grep -A3 '"eas"' app.json || true
+      - name: Android APK derlemesini başlat (Expo bulutunda)
+        run: |
+          npx -y eas-cli@latest build -p android --profile preview --non-interactive --no-wait --json > build.json
+          cat build.json
+          URL=$(node -e "const b=require('./build.json');const x=Array.isArray(b)?b[0]:b;console.log('https://expo.dev/accounts/'+x.project.ownerAccount.name+'/projects/'+x.project.slug+'/builds/'+x.id)")
+          echo "### APK derlemesi başladı" >> $GITHUB_STEP_SUMMARY
+          echo "10-15 dk sonra buradan indir: $URL" >> $GITHUB_STEP_SUMMARY
+          echo "Derleme: $URL"
