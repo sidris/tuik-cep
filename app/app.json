@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "TÜİK Cep",
+    "name": "TUIK Cep",
     "slug": "tuik-cep",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -31,6 +31,10 @@
           "color": "#C8102E",
           "defaultChannel": "tuik"
         }
+      ],
+      [
+        "./plugins/withAndroidLabel",
+        "TÜİK Cep"
       ]
     ],
     "extra": {
