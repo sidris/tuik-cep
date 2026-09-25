@@ -356,12 +356,18 @@ def build_item(meta: dict, with_ai: bool = True) -> dict:
     }
 
 
-def notify(item: dict) -> None:
+def notify(item: dict, state: dict) -> None:
     short = item["title"]
     title = f"TÜİK • {short} — {item['period']}"
     ai = item.get("ai") or {}
     body = ai.get("baslik") or item.get("headline") or "Yeni bülten yayımlandı"
     send_push(title, body, {"id": item["id"], "url": item["url"]})
+    if not env_flag("DRY_RUN"):
+        try:
+            import telegram_pdf
+            telegram_pdf.send_item(item, state)
+        except Exception as e:  # noqa: BLE001
+            log("telegram hatası:", e)
 
 
 def upsert_feed(feed: list[dict], item: dict) -> list[dict]:
@@ -415,7 +421,7 @@ def check_once(backfill: int = 5) -> int:
             item = {"id": meta["id"], "title": meta["title"], "period": meta["period"], "date": meta["date"],
                     "url": PUBLIC_URL.format(id=meta["id"]), "headline": "", "next_release": None, "ai": None,
                     "detected_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
-        notify(item)
+        notify(item, state)
         feed = upsert_feed(feed, item)
         seen.add(meta["id"])
         pending.pop(str(meta["id"]), None)
@@ -479,7 +485,12 @@ def main() -> None:
             item = feed[0]
         else:
             sys.exit("feed boş; --id ile bir bülten numarası ver")
-        notify(item)
+        state = load_json(STATE_PATH, {"seen": [], "pending": {}})
+        had = state.get("telegram_chat_id")
+        notify(item, state)
+        if state.get("telegram_chat_id") != had:
+            save_json(STATE_PATH, state)
+            git_commit("TÜİK Cep: Telegram kanalı kaydedildi")
 
 
 if __name__ == "__main__":
