@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Node / Expo
+node_modules/
+app/.expo/
+app/dist/
+app/android/
+app/ios/
+app/expo-env.d.ts
+*.tsbuildinfo
+
+# Firebase servis hesabı anahtarı ASLA repo'ya girmesin
+*firebase-adminsdk*.json
+service-account*.json
+
+# Diğer
+.env
+.env.*
+*.jks
+*.keystore
+.DS_Store
+watcher/tests/
+.github/
