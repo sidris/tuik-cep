@@ -31,6 +31,8 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       EXPO_PUSH_TOKENS: ${{ secrets.EXPO_PUSH_TOKENS }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
       GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
       GIT_COMMIT: "1"
       TZ: Europe/Istanbul
@@ -42,6 +44,8 @@ jobs:
           cache: pip
           cache-dependency-path: watcher/requirements.txt
       - run: pip install -r watcher/requirements.txt
+      - name: Türkçe font (PDF için)
+        run: test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core)
       - name: git kimliği
         run: |
           git config user.name "tuik-cep-bot"
