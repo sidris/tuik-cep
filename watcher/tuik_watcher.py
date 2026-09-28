@@ -469,7 +469,11 @@ def main() -> None:
     args = ap.parse_args()
 
     if args.cmd == "once":
-        check_once()
+        try:
+            check_once()
+        except Exception as e:  # noqa: BLE001
+            # TÜİK anlık yanıt vermezse işi başarısız sayma; 5 dk sonra tekrar denenecek.
+            print(f"::warning::TÜİK kontrolü atlandı: {e}", flush=True)
     elif args.cmd == "burst":
         burst(args.until_utc, args.interval)
     elif args.cmd == "summarize":
