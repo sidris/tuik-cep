@@ -263,5 +263,59 @@
    "dogrulanamayan": []
   },
   "detected_at": "2026-09-25T20:46:10+00:00"
+ },
+ {
+  "id": 58290,
+  "title": "Tüketici Fiyat Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-09-03T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58290",
+  "headline": "Tüketici fiyat endeksi (TÜFE) yıllık %31,51 arttı, aylık %1,84 arttı",
+  "next_release": "05 Ekim 2026",
+  "ai": {
+   "baslik": "TÜFE Ağustos 2026'da yıllık %31,51, aylık %1,84 arttı",
+   "ozet": "Tüketici Fiyat Endeksi (TÜFE) 2026 yılı Ağustos ayında bir önceki aya göre %1,84, bir önceki yılın aynı ayına göre %31,51 arttı. Yıllık enflasyon bir önceki aydaki %31,75 düzeyinden %31,51'e gerilerken, aylık enflasyon %1,78'den %1,84'e yükseldi. Yıllık bazda en yüksek ağırlıklı gruplardan konutta %39,77, ulaştırmada %35,08 ve gıda ve alkolsüz içeceklerde %33,79 artış gerçekleşti.",
+   "one_cikanlar": [
+    "TÜFE yıllık %31,51, aylık %1,84 artış gösterdi.",
+    "Aylık bazda ulaştırma %4,82 artışla genel endekse 0,82 yüzde puan katkı yaptı.",
+    "Özel kapsamlı TÜFE (B) göstergesi yıllık %30,68, aylık %1,84 arttı.",
+    "Endekste kapsanan 174 alt sınıftan 134'ünde artış, 35'inde düşüş oldu, 5'inde değişim olmadı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "TÜFE (Yıllık)",
+     "deger": "%31,51",
+     "degisim": "Temmuz 2026: %31,75"
+    },
+    {
+     "etiket": "TÜFE (Aylık)",
+     "deger": "%1,84",
+     "degisim": "Temmuz 2026: %1,78"
+    },
+    {
+     "etiket": "On İki Aylık Ortalamalara Göre TÜFE",
+     "deger": "%31,79",
+     "degisim": "Temmuz 2026: %31,90"
+    },
+    {
+     "etiket": "Gıda ve Alkolsüz İçecekler (Yıllık)",
+     "deger": "%33,79",
+     "degisim": "Temmuz 2026: %37,53"
+    },
+    {
+     "etiket": "Ulaştırma (Yıllık)",
+     "deger": "%35,08",
+     "degisim": "Temmuz 2026: %30,83"
+    },
+    {
+     "etiket": "Konut (Yıllık)",
+     "deger": "%39,77",
+     "degisim": "Temmuz 2026: %40,32"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-28T12:02:58+00:00"
  }
 ]
