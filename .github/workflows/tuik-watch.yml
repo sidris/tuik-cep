@@ -31,7 +31,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 70
+    timeout-minutes: 200
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       EXPO_PUSH_TOKENS: ${{ secrets.EXPO_PUSH_TOKENS }}
