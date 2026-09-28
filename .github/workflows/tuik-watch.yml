@@ -1,11 +1,15 @@
 name: TÜİK izleyici
-# Zamanlama yeniden kaydı: 2026-09-26
 
 on:
   schedule:
-    # Yoğun pencere: hafta içi 09:35 TR'de başlar, 10:30 TR'ye kadar 15 sn'de bir kontrol eder.
-    # (GitHub zamanlanmış işleri birkaç dakika geç başlatabilir; bu yüzden erken başlıyoruz.)
-    - cron: "35 6 * * 1-5"
+    # Yoğun pencere: hafta içi 10:30 TR'ye kadar 15 sn'de bir kontrol.
+    # GitHub zamanlanmış işleri 1 saate varan gecikmeyle (bazen hiç) başlatıyor; bu yüzden
+    # 07:47-09:47 TR arasında dört ayrı tetikleyici var. Hangisi önce başlarsa 10:30'a kadar izler,
+    # diğerleri sıraya girip tek kontrol yapar.
+    - cron: "47 4 * * 1-5"
+    - cron: "17 5 * * 1-5"
+    - cron: "47 5 * * 1-5"
+    - cron: "17 6 * * 1-5"
     # Günün geri kalanı için yedek kontrol (~10 dk'da bir; GitHub bazen geciktirir).
     - cron: "*/10 * * * *"
   workflow_dispatch:
@@ -53,7 +57,8 @@ jobs:
       - name: Çalıştır
         run: |
           MODE="${{ github.event.inputs.mode }}"
-          if [ "${{ github.event.schedule }}" = "35 6 * * 1-5" ]; then MODE=burst; fi
+          SCHED="${{ github.event.schedule }}"
+          if [ -n "$SCHED" ] && [ "$SCHED" != "*/10 * * * *" ]; then MODE=burst; fi
           case "$MODE" in
             burst)     python watcher/tuik_watcher.py burst --until-utc 07:30 --interval 15 ;;
             test-push) if [ -n "${{ github.event.inputs.press_id }}" ]; then
