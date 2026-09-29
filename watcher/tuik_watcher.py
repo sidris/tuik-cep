@@ -32,10 +32,13 @@ from typing import Any
 import requests
 from bs4 import BeautifulSoup, NavigableString
 
+import extras
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 STATE_PATH = DATA / "state.json"
 FEED_PATH = DATA / "feed.json"
+CALENDAR_PATH = DATA / "calendar.json"
 WATCHLIST_PATH = ROOT / "watcher" / "watchlist.json"
 
 BASE = "https://veriportali.tuik.gov.tr"
@@ -351,9 +354,56 @@ def build_item(meta: dict, with_ai: bool = True) -> dict:
         "url": PUBLIC_URL.format(id=pid),
         "headline": headline,
         "next_release": extract_next_release(text),
+        "charts": _safe_charts(content),
         "ai": ai,
         "detected_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
     }
+
+
+def _safe_charts(content: str) -> list[dict]:
+    try:
+        return extras.extract_charts(content)
+    except Exception as e:  # noqa: BLE001
+        log("grafik çıkarılamadı:", e)
+        return []
+
+
+def save_calendar_for(items: list[dict]) -> None:
+    cal = load_json(CALENDAR_PATH, [])
+    for it in items:
+        cal = extras.update_calendar(cal, it["title"], it.get("next_release"), it.get("id"))
+    save_json(CALENDAR_PATH, cal)
+
+
+def refresh_extras(days: int = 45) -> None:
+    """Feed'deki bültenlere grafik ekle; izlenen son bültenlerden yayın takvimini kur (bildirim yok)."""
+    feed = load_json(FEED_PATH, [])
+    wl = load_watchlist()
+    for it in feed:
+        if it.get("charts"):
+            continue
+        try:
+            it["charts"] = _safe_charts(fetch_press(it["id"]).get("content", ""))
+            log("grafik:", it["title"], len(it["charts"]))
+        except Exception as e:  # noqa: BLE001
+            log("grafik alınamadı:", it["id"], e)
+    cutoff = (dt.datetime.now(TR_TZ) - dt.timedelta(days=days)).strftime("%Y-%m-%d")
+    latest = [m for m in fetch_latest() if is_watched(m["title"], wl) and (m.get("date") or "") >= cutoff]
+    seen_titles: set[str] = set()
+    cal_items = []
+    for m in latest:  # en yeniden eskiye; her başlığın en son bülteni yeterli
+        if m["title"] in seen_titles:
+            continue
+        seen_titles.add(m["title"])
+        try:
+            press = fetch_press(m["id"])
+            nr = extract_next_release(html_to_text(press.get("content", "")))
+            cal_items.append({"id": m["id"], "title": press.get("title") or m["title"], "next_release": nr})
+        except Exception as e:  # noqa: BLE001
+            log("takvim için alınamadı:", m["id"], e)
+    save_json(FEED_PATH, feed)
+    save_calendar_for(cal_items)
+    git_commit("TÜİK Cep: grafikler ve yayın takvimi")
 
 
 def notify(item: dict, state: dict) -> None:
@@ -432,6 +482,7 @@ def check_once(backfill: int = 5) -> int:
         state["pending"] = pending
         save_json(STATE_PATH, state)
         save_json(FEED_PATH, feed)
+        save_calendar_for([x for x in feed if x["id"] in {m["id"] for m in new}])
         titles = ", ".join(m["title"] for m in new)[:150]
         git_commit(f"TÜİK Cep: {titles}")
     return count
@@ -464,6 +515,7 @@ def main() -> None:
     b.add_argument("--interval", type=int, default=15)
     tp = sub.add_parser("test-push")
     tp.add_argument("--id", type=int)
+    sub.add_parser("refresh-extras")
     s = sub.add_parser("summarize")
     s.add_argument("--id", type=int, required=True)
     args = ap.parse_args()
@@ -476,6 +528,8 @@ def main() -> None:
             print(f"::warning::TÜİK kontrolü atlandı: {e}", flush=True)
     elif args.cmd == "burst":
         burst(args.until_utc, args.interval)
+    elif args.cmd == "refresh-extras":
+        refresh_extras()
     elif args.cmd == "summarize":
         print(json.dumps(build_item({"id": args.id}), ensure_ascii=False, indent=2))
     elif args.cmd == "test-push":
