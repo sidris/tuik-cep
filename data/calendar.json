@@ -1,0 +1,72 @@
+[
+ {
+  "title": "Sanayi Üretim Endeksi",
+  "date": "2026-10-09",
+  "source_id": 58188
+ },
+ {
+  "title": "Ciro Endeksleri",
+  "date": "2026-10-12",
+  "source_id": 58283
+ },
+ {
+  "title": "Ticaret Satış Hacim Endeksi",
+  "date": "2026-10-12",
+  "source_id": 58265
+ },
+ {
+  "title": "Dış Ticaret Endeksleri",
+  "date": "2026-10-13",
+  "source_id": 58246
+ },
+ {
+  "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
+  "date": "2026-10-14",
+  "source_id": 57971
+ },
+ {
+  "title": "Hizmet Üretim Endeksi",
+  "date": "2026-10-15",
+  "source_id": 58330
+ },
+ {
+  "title": "Ücretli Çalışan İstatistikleri",
+  "date": "2026-10-15",
+  "source_id": 57952
+ },
+ {
+  "title": "İnşaat Üretim Endeksi",
+  "date": "2026-10-15",
+  "source_id": 58315
+ },
+ {
+  "title": "Konut ve İş Yeri Satış İstatistikleri",
+  "date": "2026-10-16",
+  "source_id": 58346
+ },
+ {
+  "title": "Tarımsal Girdi Fiyat Endeksi",
+  "date": "2026-10-19",
+  "source_id": 58084
+ },
+ {
+  "title": "Yurt Dışı Üretici Fiyat Endeksi",
+  "date": "2026-10-20",
+  "source_id": 58110
+ },
+ {
+  "title": "Tüketici Güven Endeksi",
+  "date": "2026-10-22",
+  "source_id": 58177
+ },
+ {
+  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
+  "date": "2026-10-26",
+  "source_id": 58158
+ },
+ {
+  "title": "Ekonomik Güven Endeksi",
+  "date": "2026-10-30",
+  "source_id": 58124
+ }
+]
