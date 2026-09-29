@@ -1,5 +1,59 @@
 [
  {
+  "id": 58124,
+  "title": "Ekonomik Güven Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-09-29T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58124",
+  "headline": "Ekonomik güven endeksi 101,3 oldu",
+  "next_release": "30 Ekim 2026",
+  "ai": {
+   "baslik": "Ekonomik güven endeksi Eylül ayında %0,7 artışla 101,3 değerini aldı",
+   "ozet": "Ekonomik güven endeksi Ağustos ayında 100,6 iken, Eylül ayında %0,7 oranında artarak 101,3 değerini aldı. Tüketici, reel kesim ve perakende ticaret sektörü güven endeksleri yükselirken, hizmet sektörü güven endeksi aynı düzeyde kaldı. İnşaat sektörü güven endeksi ise bir önceki aya göre %0,2 oranında geriledi.",
+   "one_cikanlar": [
+    "Ekonomik güven endeksi Ağustos'taki 100,6 değerinden Eylül'de 101,3'e yükseldi.",
+    "Tüketici güven endeksi %1,3 artışla 91,9 değerini aldı.",
+    "Perakende ticaret sektörü güven endeksi %1,1 artarak 111,3 oldu.",
+    "İnşaat sektörü güven endeksi %0,2 oranında azalarak 83,0 değerine düştü."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Ekonomik güven endeksi",
+     "deger": "101,3",
+     "degisim": "%0,7"
+    },
+    {
+     "etiket": "Tüketici güven endeksi",
+     "deger": "91,9",
+     "degisim": "%1,3"
+    },
+    {
+     "etiket": "Reel kesim güven endeksi",
+     "deger": "102,5",
+     "degisim": "%0,1"
+    },
+    {
+     "etiket": "Hizmet sektörü güven endeksi",
+     "deger": "111,9",
+     "degisim": "%0,0"
+    },
+    {
+     "etiket": "Perakende ticaret güven endeksi",
+     "deger": "111,3",
+     "degisim": "%1,1"
+    },
+    {
+     "etiket": "İnşaat sektörü güven endeksi",
+     "deger": "83,0",
+     "degisim": "-%0,2"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-29T07:00:40+00:00"
+ },
+ {
   "id": 58158,
   "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
   "period": "Eylül 2026",
