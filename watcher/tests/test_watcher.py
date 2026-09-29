@@ -121,3 +121,43 @@ def test_chat_id_discovery(monkeypatch):
     state = {}
     assert tg.resolve_chat_id(state) == "-1001"
     assert state["telegram_chat_id"] == "-1001"
+
+# ---------------------------------------------------------------- grafik / takvim
+
+import datetime as _dt  # noqa: E402
+
+import extras  # noqa: E402
+
+GRAFIK = """<div class="grafik" id="GRAFIK1-TR" data-name="GRAFIK1" data-options="{
+  'id': 'GRAFIK1',
+  'name': 'Mevsim etkilerinden arındırılmış güven endeksleri, Eylül 2026',
+  'type': 'line',
+  'dataLines': null,
+  'islegend': true,
+  'labels': ['2026-04', '2026-05', '2026-06', '2026-07', '2026-08', '2026-09'],
+  'data': [
+    {'label': 'Hizmet sektörü', 'color': '#AB1419', 'dataViews': [{'index': 5, 'value': 111.94}],
+     'data': [110.49, 110.89, 109.96, 111.2, 111.899710484441, 111.940945129261]},
+    {'label': 'İnşaat sektörü', 'color': '#000', 'data': [84.1, 83.9, 83.5, 83.3, 83.1, 83.0]}
+  ]
+}">Yükleniyor...</div>
+<div class="grafik" data-options="{'type': 'pie', 'labels': ['a','b','c','d'], 'data': []}"></div>"""
+
+
+def test_extract_charts():
+    charts = extras.extract_charts(GRAFIK)
+    assert len(charts) == 1
+    c = charts[0]
+    assert c["type"] == "line" and c["labels"][-1] == "2026-09"
+    assert [s["label"] for s in c["series"]] == ["Hizmet sektörü", "İnşaat sektörü"]
+    assert c["series"][0]["data"][-1] == 111.94
+
+
+def test_calendar():
+    assert extras.parse_tr_date("05 Ekim 2026") == "2026-10-05"
+    assert extras.parse_tr_date("3 Aralık 2026 Perşembe") == "2026-12-03"
+    today = _dt.date(2026, 9, 29)
+    cal = extras.update_calendar([{"title": "Eski", "date": "2026-09-01"}], "TÜFE", "05 Ekim 2026", 1, today)
+    cal = extras.update_calendar(cal, "Güven", "26 Ekim 2026", 2, today)
+    cal = extras.update_calendar(cal, "TÜFE", "03 Kasım 2026", 3, today)
+    assert [(c["title"], c["date"]) for c in cal] == [("Güven", "2026-10-26"), ("TÜFE", "2026-11-03")]
