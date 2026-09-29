@@ -21,6 +21,7 @@ import * as Notifications from 'expo-notifications';
 import * as Clipboard from 'expo-clipboard';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { sharePdf } from './src/pdf';
+import { MiniChart, type ChartData } from './src/Chart';
 
 // ---------------------------------------------------------------- tipler
 
@@ -43,11 +44,15 @@ type Item = {
   next_release: string | null;
   ai: AI | null;
   detected_at: string;
+  charts?: ChartData[];
 };
+type CalEntry = { title: string; date: string; source_id?: number | null };
 
 const DEFAULT_REPO: string = Constants.expoConfig?.extra?.githubRepo ?? '';
 const K_FEED = 'feed-cache-v1';
 const K_REPO = 'github-repo-v1';
+const K_FAV = 'favorites-v1';
+const K_CAL = 'calendar-cache-v1';
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
@@ -60,18 +65,35 @@ Notifications.setNotificationHandler({
 
 // ---------------------------------------------------------------- yardımcılar
 
-async function fetchFeed(repo: string): Promise<Item[]> {
-  // GitHub API: önbelleksiz, en güncel feed.json. Hata olursa raw adresini dene.
-  const api = `https://api.github.com/repos/${repo}/contents/data/feed.json?ref=main&t=${Date.now()}`;
+async function fetchData<T>(repo: string, file: string): Promise<T> {
+  // GitHub API: önbelleksiz, en güncel dosya. Hata olursa raw adresini dene.
+  const api = `https://api.github.com/repos/${repo}/contents/data/${file}?ref=main&t=${Date.now()}`;
   try {
     const r = await fetch(api, { headers: { Accept: 'application/vnd.github.raw+json' } });
-    if (r.ok) return (await r.json()) as Item[];
+    if (r.ok) return (await r.json()) as T;
   } catch {}
-  const raw = `https://raw.githubusercontent.com/${repo}/main/data/feed.json?t=${Date.now()}`;
+  const raw = `https://raw.githubusercontent.com/${repo}/main/data/${file}?t=${Date.now()}`;
   const r = await fetch(raw);
-  if (!r.ok) throw new Error(`Feed alınamadı (HTTP ${r.status})`);
-  return (await r.json()) as Item[];
+  if (!r.ok) throw new Error(`${file} alınamadı (HTTP ${r.status})`);
+  return (await r.json()) as T;
 }
+
+const fetchFeed = (repo: string) => fetchData<Item[]>(repo, 'feed.json');
+
+const GUNLER = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
+const AYLAR = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+
+function dayInfo(iso: string): { label: string; rel: string; diff: number } {
+  const [y, m, d] = iso.split('-').map(Number);
+  const target = new Date(y, m - 1, d);
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const diff = Math.round((target.getTime() - today.getTime()) / 86400000);
+  const rel = diff === 0 ? 'Bugün' : diff === 1 ? 'Yarın' : `${diff} gün sonra`;
+  return { label: `${d} ${AYLAR[m - 1]} ${GUNLER[target.getDay()]}`, rel, diff };
+}
+
+const trLower = (t: string) => t.replace(/I/g, 'ı').replace(/İ/g, 'i').toLowerCase();
 
 async function registerForPush(): Promise<string> {
   if (Platform.OS === 'android') {
@@ -122,6 +144,18 @@ export default function App() {
   const [copied, setCopied] = useState(false);
   const [pdfBusy, setPdfBusy] = useState(false);
   const [pdfErr, setPdfErr] = useState<string | null>(null);
+  const [tab, setTab] = useState<'feed' | 'calendar' | 'fav'>('feed');
+  const [query, setQuery] = useState('');
+  const [favs, setFavs] = useState<number[]>([]);
+  const [calendar, setCalendar] = useState<CalEntry[]>([]);
+
+  const toggleFav = useCallback((id: number) => {
+    setFavs((prev) => {
+      const next = prev.includes(id) ? prev.filter((x) => x !== id) : [id, ...prev];
+      AsyncStorage.setItem(K_FAV, JSON.stringify(next)).catch(() => {});
+      return next;
+    });
+  }, []);
   const pendingOpen = useRef<{ id: number; url?: string } | null>(null);
 
   const load = useCallback(async (r: string = repo) => {
@@ -135,6 +169,9 @@ export default function App() {
       const f = await fetchFeed(r);
       setFeed(f);
       AsyncStorage.setItem(K_FEED, JSON.stringify(f)).catch(() => {});
+      fetchData<CalEntry[]>(r, 'calendar.json')
+        .then((cal) => { setCalendar(cal); AsyncStorage.setItem(K_CAL, JSON.stringify(cal)).catch(() => {}); })
+        .catch(() => {});
       return f;
     } catch (e: any) {
       setError(e?.message ?? String(e));
@@ -161,6 +198,10 @@ export default function App() {
       try {
         const cached = await AsyncStorage.getItem(K_FEED);
         if (cached) setFeed(JSON.parse(cached));
+        const fv = await AsyncStorage.getItem(K_FAV);
+        if (fv) setFavs(JSON.parse(fv));
+        const cal = await AsyncStorage.getItem(K_CAL);
+        if (cal) setCalendar(JSON.parse(cal));
       } catch {}
       let r = DEFAULT_REPO;
       try {
@@ -277,7 +318,8 @@ export default function App() {
     return (
       <View style={s.root}>
         <StatusBar style={dark ? 'light' : 'dark'} />
-        {header(shortTitle(it.title), { label: '‹ Geri', onPress: () => setScreen('list') })}
+        {header(shortTitle(it.title), { label: '‹ Geri', onPress: () => setScreen('list') },
+          { label: favs.includes(it.id) ? '★ Favori' : '☆ Favori', onPress: () => toggleFav(it.id) })}
         <ScrollView contentContainerStyle={s.pad}>
           <Text style={s.kicker}>{it.period}{it.date ? ` · ${fmtDate(it.date)}` : ''}</Text>
           <Text style={s.h1}>{it.title}</Text>
@@ -286,6 +328,17 @@ export default function App() {
               <Text style={s.quoteLabel}>TÜİK manşeti</Text>
               <Text style={s.quoteText}>{it.headline}</Text>
             </View>
+          )}
+
+          {(it.charts?.length ?? 0) > 0 && (
+            <>
+              <Text style={s.section}>Seri</Text>
+              {it.charts!.map((ch, i) => (
+                <View key={i} style={[s.card, i > 0 && { marginTop: 12 }]}>
+                  <MiniChart chart={ch} c={c} />
+                </View>
+              ))}
+            </>
           )}
 
           {ai ? (
@@ -349,31 +402,98 @@ export default function App() {
     );
   }
 
+  const q = trLower(query.trim());
+  const base = tab === 'fav' ? feed.filter((x) => favs.includes(x.id)) : feed;
+  const shown = q
+    ? base.filter((x) => trLower(`${x.title} ${x.period} ${x.headline} ${x.ai?.ozet ?? ''}`).includes(q))
+    : base;
+
+  const tabs: { key: typeof tab; label: string }[] = [
+    { key: 'feed', label: 'Bültenler' },
+    { key: 'calendar', label: 'Takvim' },
+    { key: 'fav', label: `Favoriler${favs.length ? ` (${favs.length})` : ''}` },
+  ];
+
   return (
     <View style={s.root}>
       <StatusBar style={dark ? 'light' : 'dark'} />
       {header('TÜİK Cep', undefined, { label: 'Ayarlar', onPress: () => setScreen('settings') })}
-      {error && <Text style={[s.err, { paddingHorizontal: 16, paddingTop: 8 }]}>{error}</Text>}
-      <FlatList
-        data={feed}
-        keyExtractor={(x) => String(x.id)}
-        contentContainerStyle={{ padding: 16, paddingBottom: 48 }}
-        refreshControl={<RefreshControl refreshing={loading} onRefresh={() => load()} colors={[c.accent]} />}
-        ListEmptyComponent={loading ? <ActivityIndicator style={{ marginTop: 40 }} color={c.accent} /> : (
-          <Text style={[s.body, { color: c.muted, textAlign: 'center', marginTop: 40 }]}>Henüz bülten yok. Aşağı çekip yenile.</Text>
-        )}
-        renderItem={({ item }) => (
-          <Pressable style={({ pressed }) => [s.card, s.listCard, pressed && { opacity: 0.7 }]} onPress={() => { setSelected(item); setScreen('detail'); }}>
-            <View style={s.rowBetween}>
-              <Text style={s.kicker}>{item.period}</Text>
-              <Text style={s.kickerMuted}>{fmtDate(item.date)}</Text>
-            </View>
-            <Text style={s.cardTitle}>{shortTitle(item.title)}</Text>
-            <Text style={s.cardBody} numberOfLines={3}>{item.ai?.baslik || item.headline}</Text>
-            {item.ai && <Text style={s.badge}>AI özeti</Text>}
+      <View style={s.tabs}>
+        {tabs.map((t) => (
+          <Pressable key={t.key} onPress={() => setTab(t.key)} style={[s.tab, tab === t.key && s.tabActive]}>
+            <Text style={[s.tabText, tab === t.key && s.tabTextActive]}>{t.label}</Text>
           </Pressable>
-        )}
-      />
+        ))}
+      </View>
+      {error && <Text style={[s.err, { paddingHorizontal: 16, paddingTop: 8 }]}>{error}</Text>}
+
+      {tab === 'calendar' ? (
+        <FlatList
+          data={calendar}
+          keyExtractor={(x) => `${x.date}-${x.title}`}
+          contentContainerStyle={{ padding: 16, paddingBottom: 48 }}
+          refreshControl={<RefreshControl refreshing={loading} onRefresh={() => load()} colors={[c.accent]} />}
+          ListHeaderComponent={<Text style={[s.help, { marginTop: 0 }]}>Takip ettiğin göstergelerin açıklanan bir sonraki yayım tarihleri. TÜİK bültenleri genellikle 10:00'da yayımlanır.</Text>}
+          ListEmptyComponent={<Text style={[s.body, { color: c.muted, textAlign: 'center', marginTop: 40 }]}>Takvim henüz oluşmadı. Aşağı çekip yenile.</Text>}
+          renderItem={({ item, index }) => {
+            const d = dayInfo(item.date);
+            const newDay = index === 0 || calendar[index - 1].date !== item.date;
+            return (
+              <View>
+                {newDay && (
+                  <View style={[s.rowBetween, { marginTop: index === 0 ? 4 : 18, marginBottom: 8 }]}>
+                    <Text style={s.calDay}>{d.label}</Text>
+                    <Text style={[s.calRel, d.diff <= 1 && { color: c.accent }]}>{d.rel}</Text>
+                  </View>
+                )}
+                <View style={[s.card, { marginBottom: 8, paddingVertical: 12 }]}>
+                  <Text style={s.cardTitle}>{shortTitle(item.title)}</Text>
+                </View>
+              </View>
+            );
+          }}
+        />
+      ) : (
+        <FlatList
+          data={shown}
+          keyExtractor={(x) => String(x.id)}
+          contentContainerStyle={{ padding: 16, paddingBottom: 48 }}
+          keyboardShouldPersistTaps="handled"
+          refreshControl={<RefreshControl refreshing={loading} onRefresh={() => load()} colors={[c.accent]} />}
+          ListHeaderComponent={
+            <TextInput
+              style={[s.input, { marginBottom: 14 }]}
+              value={query}
+              onChangeText={setQuery}
+              placeholder="Ara: TÜFE, işsizlik, konut…"
+              placeholderTextColor={c.muted}
+              autoCorrect={false}
+              clearButtonMode="while-editing"
+            />
+          }
+          ListEmptyComponent={loading ? <ActivityIndicator style={{ marginTop: 40 }} color={c.accent} /> : (
+            <Text style={[s.body, { color: c.muted, textAlign: 'center', marginTop: 40 }]}>
+              {q ? 'Eşleşen bülten yok.' : tab === 'fav' ? 'Henüz favori yok. Bülten detayında ☆ Favori\'ye dokun.' : 'Henüz bülten yok. Aşağı çekip yenile.'}
+            </Text>
+          )}
+          renderItem={({ item }) => (
+            <Pressable style={({ pressed }) => [s.card, s.listCard, pressed && { opacity: 0.7 }]} onPress={() => { setSelected(item); setScreen('detail'); }}>
+              <View style={s.rowBetween}>
+                <Text style={s.kicker}>{item.period}</Text>
+                <Text style={s.kickerMuted}>{fmtDate(item.date)}</Text>
+              </View>
+              <View style={s.rowBetween}>
+                <Text style={[s.cardTitle, { flex: 1 }]}>{shortTitle(item.title)}</Text>
+                <Pressable onPress={() => toggleFav(item.id)} hitSlop={12} style={{ paddingLeft: 12, paddingTop: 6 }}>
+                  <Text style={{ fontSize: 20, color: favs.includes(item.id) ? c.accent : c.muted }}>{favs.includes(item.id) ? '★' : '☆'}</Text>
+                </Pressable>
+              </View>
+              <Text style={s.cardBody} numberOfLines={3}>{item.ai?.baslik || item.headline}</Text>
+              {item.ai && <Text style={s.badge}>AI özeti</Text>}
+            </Pressable>
+          )}
+        />
+      )}
     </View>
   );
 }
@@ -387,10 +507,17 @@ type Colors = typeof lightColors;
 const makeStyles = (c: Colors) => StyleSheet.create({
   root: { flex: 1, backgroundColor: c.bg, paddingTop: Constants.statusBarHeight },
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, height: 52, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: c.line },
-  headerSide: { width: 72 },
+  headerSide: { width: 84 },
   headerTitle: { flex: 1, textAlign: 'center', fontSize: 17, fontWeight: '700', color: c.text },
   headerBtn: { color: c.accent, fontSize: 15, fontWeight: '600' },
   pad: { padding: 16, paddingBottom: 48 },
+  tabs: { flexDirection: 'row', paddingHorizontal: 12, paddingTop: 10, gap: 6 },
+  tab: { paddingVertical: 8, paddingHorizontal: 14, borderRadius: 999, backgroundColor: c.card, borderWidth: StyleSheet.hairlineWidth, borderColor: c.line },
+  tabActive: { backgroundColor: c.accent, borderColor: c.accent },
+  tabText: { color: c.text, fontSize: 14, fontWeight: '600' },
+  tabTextActive: { color: '#FFFFFF' },
+  calDay: { color: c.text, fontSize: 15, fontWeight: '700' },
+  calRel: { color: c.muted, fontSize: 13, fontWeight: '600' },
   card: { backgroundColor: c.card, borderRadius: 14, padding: 14, borderWidth: StyleSheet.hairlineWidth, borderColor: c.line },
   listCard: { marginBottom: 12 },
   rowBetween: { flexDirection: 'row', justifyContent: 'space-between' },

@@ -2,7 +2,7 @@
   "expo": {
     "name": "TUIK Cep",
     "slug": "tuik-cep",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -22,7 +22,7 @@
         "POST_NOTIFICATIONS"
       ],
       "predictiveBackGestureEnabled": false,
-      "versionCode": 2
+      "versionCode": 3
     },
     "plugins": [
       [
@@ -44,7 +44,6 @@
       "eas": {
         "projectId": "ae6eb291-b0a8-40be-87e7-8c02a185cc88"
       }
-    },
-    "owner": "sidrisoglu"
+    }
   }
 }
