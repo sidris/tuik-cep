@@ -390,7 +390,7 @@ def refresh_extras(days: int = 45) -> None:
     cutoff = (dt.datetime.now(TR_TZ) - dt.timedelta(days=days)).strftime("%Y-%m-%d")
     latest = [m for m in fetch_latest() if is_watched(m["title"], wl) and (m.get("date") or "") >= cutoff]
     seen_titles: set[str] = set()
-    cal_items = []
+    cal_items = [x for x in reversed(feed) if x.get("next_release")]  # önce feed, sonra daha yeni bültenler üzerine yazar
     for m in latest:  # en yeniden eskiye; her başlığın en son bülteni yeterli
         if m["title"] in seen_titles:
             continue
