@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "once | test-push | burst"
+        description: "once | test-push | burst | refresh-extras"
         default: once
       press_id:
         description: "test-push için bülten no (boşsa feed'deki son bülten)"
@@ -66,5 +66,6 @@ jobs:
                        else
                          python watcher/tuik_watcher.py test-push
                        fi ;;
+            refresh-extras) python watcher/tuik_watcher.py refresh-extras ;;
             *)         python watcher/tuik_watcher.py once ;;
           esac
