@@ -1,5 +1,471 @@
 [
  {
+  "id": 58239,
+  "title": "Dış Ticaret İstatistikleri",
+  "period": "Ağustos 2026",
+  "date": "2026-09-30T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58239",
+  "headline": "Aylara göre dış ticaret, Ağustos 2026",
+  "next_release": null,
+  "charts": [],
+  "ai": {
+   "baslik": "Ağustos 2026'da dış ticaret açığı %22,3 artarak 5 milyar 239 milyon dolara yükseldi",
+   "ozet": "Genel ticaret sistemine göre ihracat 2026 yılı Ağustos ayında bir önceki yılın aynı ayına göre %8,1 artarak 23 milyar 467 milyon dolar, ithalat %10,5 artarak 28 milyar 706 milyon dolar oldu. Dış ticaret açığı aynı ayda %22,3 artışla 5 milyar 239 milyon dolara yükselirken, ihracatın ithalatı karşılama oranı %81,7'ye geriledi. Ocak-Ağustos döneminde ise dış ticaret açığı %9,3 artarak 65 milyar 793 milyon dolar olarak gerçekleşti.",
+   "one_cikanlar": [
+    "Ağustos ayında ihracat yıllık %8,1, ithalat %10,5 artış kaydetti.",
+    "Aylık dış ticaret açığı %22,3 artarak 5 milyar 239 milyon dolar oldu.",
+    "İhracatta ilk sırayı 1 milyar 760 milyon dolar ile Almanya, ithalatta 4 milyar 706 milyon dolar ile Çin aldı.",
+    "Enerji ürünleri ve parasal olmayan altın hariç dış ticaret açığı 1 milyar 88 milyon dolar olarak gerçekleşti."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İhracat (Ağustos)",
+     "deger": "23 milyar 467 milyon dolar",
+     "degisim": "%8,1"
+    },
+    {
+     "etiket": "İthalat (Ağustos)",
+     "deger": "28 milyar 706 milyon dolar",
+     "degisim": "%10,5"
+    },
+    {
+     "etiket": "Dış Ticaret Açığı (Ağustos)",
+     "deger": "5 milyar 239 milyon dolar",
+     "degisim": "%22,3"
+    },
+    {
+     "etiket": "Karşılama Oranı (Ağustos)",
+     "deger": "%81,7",
+     "degisim": ""
+    },
+    {
+     "etiket": "Ocak-Ağustos İhracatı",
+     "deger": "184 milyar 996 milyon dolar",
+     "degisim": "%4,0"
+    },
+    {
+     "etiket": "Ocak-Ağustos Dış Ticaret Açığı",
+     "deger": "65 milyar 793 milyon dolar",
+     "degisim": "%9,3"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-30T07:00:44+00:00"
+ },
+ {
+  "id": 58098,
+  "title": "Hizmet Üretici Fiyat Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-09-30T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58098",
+  "headline": "Hizmet Üretici Fiyat Endeksi (H-ÜFE) yıllık %33,29 arttı, aylık %2,87 arttı",
+  "next_release": "28 Ekim 2026",
+  "charts": [
+   {
+    "title": "H-ÜFE yıllık değişim oranı(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "H-ÜFE yıllık değişim oranı(%)",
+      "data": [
+       56.85,
+       55.34,
+       53.44,
+       49.07,
+       40.44,
+       39.81,
+       37.94,
+       37.15,
+       38.16,
+       37.4,
+       36.35,
+       36.16,
+       34.91,
+       34.85,
+       34.93,
+       35.11,
+       34.07,
+       33.58,
+       35.94,
+       34.62,
+       38.37,
+       31.84,
+       32.77,
+       33.29
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "H-ÜFE Ağustos 2026'da yıllık %33,29, aylık %2,87 arttı",
+   "ozet": "Hizmet Üretici Fiyat Endeksi (H-ÜFE) 2026 yılı Ağustos ayında bir önceki aya göre %2,87, bir önceki yılın aynı ayına göre %33,29 artış gösterdi. Temmuz 2026'da %32,77 olan yıllık artış oranı Ağustos ayında %33,29'a yükselirken, aylık artış hızı %3,94'ten %2,87'ye geriledi. Yıllık bazda en yüksek artış %40,07 ile ulaştırma ve depolama hizmetlerinde gerçekleşti.",
+   "one_cikanlar": [
+    "H-ÜFE yıllık %33,29, aylık %2,87 arttı.",
+    "On iki aylık ortalamalara göre artış %34,46 oldu.",
+    "Yıllık bazda en yüksek artış %40,07 ile ulaştırma ve depolama hizmetlerinde görüldü.",
+    "Aylık bazda en yüksek artış %3,99 ile ulaştırma ve depolama hizmetlerinde kaydedildi."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Yıllık H-ÜFE",
+     "deger": "%33,29",
+     "degisim": "Temmuz 2026'da %32,77 idi"
+    },
+    {
+     "etiket": "Aylık H-ÜFE",
+     "deger": "%2,87",
+     "degisim": "Temmuz 2026'da %3,94 idi"
+    },
+    {
+     "etiket": "Yıl sonuna göre artış",
+     "deger": "%32,66",
+     "degisim": "Temmuz 2026'da %28,95 idi"
+    },
+    {
+     "etiket": "On iki aylık ortalamalara göre",
+     "deger": "%34,46",
+     "degisim": "Temmuz 2026'da %34,71 idi"
+    },
+    {
+     "etiket": "Ulaştırma ve depolama (yıllık)",
+     "deger": "%40,07",
+     "degisim": "Temmuz 2026'da %37,26 idi"
+    },
+    {
+     "etiket": "Ulaştırma ve depolama (aylık)",
+     "deger": "%3,99",
+     "degisim": "Temmuz 2026'da %3,71 idi"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-30T07:00:49+00:00"
+ },
+ {
+  "id": 57987,
+  "title": "İşgücü İstatistikleri",
+  "period": "Ağustos 2026",
+  "date": "2026-09-30T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/57987",
+  "headline": "Mevsim etkisinden arındırılmış işsizlik oranı %7,8 seviyesinde gerçekleşti",
+  "next_release": "27 Ekim 2026",
+  "charts": [
+   {
+    "title": "İşsizlik oranı, Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Toplam",
+      "data": [
+       8.6,
+       8.7,
+       8.4,
+       8.6,
+       8.5,
+       8.2,
+       8.0,
+       8.6,
+       8.4,
+       8.7,
+       8.1,
+       8.6,
+       8.6,
+       8.5,
+       8.6,
+       7.8,
+       8.1,
+       8.4,
+       8.1,
+       8.2,
+       8.1,
+       7.6,
+       8.1,
+       7.8
+      ]
+     },
+     {
+      "label": "Erkek",
+      "data": [
+       6.6,
+       6.9,
+       6.9,
+       7.1,
+       6.6,
+       6.8,
+       6.6,
+       7.1,
+       6.5,
+       7.2,
+       6.5,
+       6.9,
+       7.3,
+       7.0,
+       7.0,
+       6.4,
+       6.7,
+       6.9,
+       6.8,
+       6.8,
+       6.9,
+       6.5,
+       6.8,
+       6.6
+      ]
+     },
+     {
+      "label": "Kadın",
+      "data": [
+       12.2,
+       12.1,
+       11.5,
+       11.5,
+       12.0,
+       10.8,
+       10.7,
+       11.5,
+       11.9,
+       11.5,
+       11.0,
+       11.8,
+       11.1,
+       11.3,
+       11.8,
+       10.5,
+       10.9,
+       11.4,
+       10.6,
+       10.8,
+       10.5,
+       9.8,
+       10.6,
+       10.1
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İstihdam oranı, Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Toplam",
+      "data": [
+       49.5,
+       49.4,
+       49.5,
+       49.5,
+       49.4,
+       48.9,
+       49.6,
+       48.9,
+       48.9,
+       49.0,
+       48.9,
+       49.0,
+       48.9,
+       48.9,
+       48.8,
+       48.9,
+       48.1,
+       48.4,
+       48.8,
+       48.2,
+       48.6,
+       48.9,
+       48.3,
+       48.4
+      ]
+     },
+     {
+      "label": "Erkek",
+      "data": [
+       67.0,
+       66.8,
+       67.2,
+       66.7,
+       66.6,
+       66.1,
+       67.2,
+       65.9,
+       66.3,
+       66.4,
+       65.9,
+       66.4,
+       66.3,
+       66.2,
+       66.5,
+       66.5,
+       65.4,
+       66.0,
+       66.1,
+       65.3,
+       66.2,
+       66.2,
+       65.5,
+       65.8
+      ]
+     },
+     {
+      "label": "Kadın",
+      "data": [
+       32.3,
+       32.4,
+       32.2,
+       32.6,
+       32.6,
+       32.0,
+       32.4,
+       32.3,
+       31.8,
+       32.1,
+       32.2,
+       31.9,
+       31.8,
+       32.0,
+       31.5,
+       31.8,
+       31.3,
+       31.3,
+       31.8,
+       31.4,
+       31.5,
+       32.0,
+       31.5,
+       31.5
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Mevsim etkisinden arındırılmış işsizlik oranı Ağustos 2026'da %7,8 oldu",
+   "ozet": "Mevsim etkisinden arındırılmış işsizlik oranı 2026 yılı Ağustos ayında bir önceki aya göre 0,3 puan azalarak %7,8 seviyesinde gerçekleşti. İşsiz sayısı 106 bin kişi azalarak 2 milyon 740 bin kişi olurken, istihdam edilenlerin sayısı 136 bin kişi artışla 32 milyon 507 bin kişiye yükseldi. Genç nüfusta işsizlik oranı 1,1 puan azalarak %13,0 olurken, atıl işgücü oranı ise 0,4 puan artarak %31,0 seviyesine çıktı.",
+   "one_cikanlar": [
+    "İşsizlik oranı 0,3 puan azalarak %7,8 seviyesinde gerçekleşti.",
+    "İstihdam oranı 0,1 puan artışla %48,4'e yükseldi.",
+    "Genç nüfusta (15-24 yaş) işsizlik oranı 1,1 puan azalarak %13,0 oldu.",
+    "Mevsim ve takvim etkilerinden arındırılmış atıl işgücü oranı 0,4 puan artarak %31,0 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İşsizlik Oranı",
+     "deger": "%7,8",
+     "degisim": "-0,3 puan"
+    },
+    {
+     "etiket": "İşsiz Sayısı",
+     "deger": "2 milyon 740 bin",
+     "degisim": "-106 bin kişi"
+    },
+    {
+     "etiket": "İstihdam Oranı",
+     "deger": "%48,4",
+     "degisim": "+0,1 puan"
+    },
+    {
+     "etiket": "İşgücüne Katılma Oranı",
+     "deger": "%52,5",
+     "degisim": "0,0 puan"
+    },
+    {
+     "etiket": "Genç Nüfusta İşsizlik Oranı",
+     "deger": "%13,0",
+     "degisim": "-1,1 puan"
+    },
+    {
+     "etiket": "Atıl İşgücü Oranı",
+     "deger": "%31,0",
+     "degisim": "+0,4 puan"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-09-30T07:01:02+00:00"
+ },
+ {
   "id": 58124,
   "title": "Ekonomik Güven Endeksi",
   "period": "Eylül 2026",
