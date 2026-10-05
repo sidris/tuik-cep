@@ -1,5 +1,239 @@
 [
  {
+  "id": 58298,
+  "title": "Tüketici Fiyat Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-10-05T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58298",
+  "headline": "Tüketici fiyat endeksi (TÜFE) yıllık %29,73 arttı, aylık %1,84 arttı",
+  "next_release": "03 Kasım 2026",
+  "charts": [
+   {
+    "title": "TÜFE yıllık değişim oranları (%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "TÜFE yıllık değişim oranları (%)",
+      "data": [
+       48.58,
+       47.09,
+       44.38,
+       42.12,
+       39.05,
+       38.1,
+       37.86,
+       35.41,
+       35.05,
+       33.52,
+       32.95,
+       33.29,
+       32.87,
+       31.07,
+       30.89,
+       30.65,
+       31.53,
+       30.87,
+       32.37,
+       32.61,
+       32.11,
+       31.75,
+       31.51,
+       29.73
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "TÜFE Eylül 2026'da yıllık %29,73, aylık %1,84 arttı",
+   "ozet": "Tüketici Fiyat Endeksi (TÜFE) 2026 yılı Eylül ayında bir önceki aya göre %1,84, bir önceki yılın aynı ayına göre %29,73 arttı. Bir önceki ay %31,51 olan yıllık TÜFE artışı %29,73'e gerilerken, aylık artış oranı %1,84 düzeyinde sabit kaldı. On iki aylık ortalamalara göre artış ise %31,49 olarak gerçekleşti.",
+   "one_cikanlar": [
+    "Yıllık enflasyon Ağustos ayındaki %31,51'den Eylül ayında %29,73'e geriledi.",
+    "Aylık enflasyon %1,84 ile bir önceki ayki seviyesini korudu.",
+    "Gıda ve alkolsüz içecekler grubunda fiyatlar aylık %0,20 azaldı, yıllık artış %27,62 oldu.",
+    "Özel kapsamlı TÜFE (B) göstergesi yıllık %29,00 ve aylık %2,01 artış kaydetti."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "TÜFE (Yıllık)",
+     "deger": "%29,73",
+     "degisim": "Ağustos 2026'da %31,51"
+    },
+    {
+     "etiket": "TÜFE (Aylık)",
+     "deger": "%1,84",
+     "degisim": "Ağustos 2026'da %1,84"
+    },
+    {
+     "etiket": "TÜFE (12 Aylık Ort.)",
+     "deger": "%31,49",
+     "degisim": "Ağustos 2026'da %31,79"
+    },
+    {
+     "etiket": "Gıda ve Alkolsüz İçecekler (Yıllık)",
+     "deger": "%27,62",
+     "degisim": "Ağustos 2026'da %33,79"
+    },
+    {
+     "etiket": "Konut (Yıllık)",
+     "deger": "%39,99",
+     "degisim": "Ağustos 2026'da %39,77"
+    },
+    {
+     "etiket": "B Göstergesi (Yıllık)",
+     "deger": "%29,00",
+     "degisim": ""
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-05T07:00:47+00:00"
+ },
+ {
+  "id": 58034,
+  "title": "Yurt İçi Üretici Fiyat Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-10-05T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58034",
+  "headline": "Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) yıllık %27,38 arttı, aylık %2,07 arttı",
+  "next_release": "03 Kasım 2026",
+  "charts": [
+   {
+    "title": "Yİ-ÜFE yıllık değişim oranı(%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Yİ-ÜFE yıllık değişim oranı(%)",
+      "data": [
+       32.24,
+       29.47,
+       28.52,
+       27.2,
+       25.21,
+       23.5,
+       22.5,
+       23.13,
+       24.45,
+       24.19,
+       25.16,
+       26.59,
+       27.0,
+       27.23,
+       27.67,
+       27.17,
+       27.56,
+       28.08,
+       28.59,
+       28.93,
+       28.09,
+       27.83,
+       27.95,
+       27.38
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Yİ-ÜFE Eylül 2026'da yıllık %27,38, aylık %2,07 arttı",
+   "ozet": "Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) 2026 yılı Eylül ayında aylık %2,07, yıllık %27,38 artış kaydetti. Yıllık artış oranı Ağustos ayındaki %27,95 seviyesinden %27,38'e, aylık artış ise %2,57'den %2,07'ye geriledi. On iki aylık ortalamalara göre artış %27,81 olurken, imalat sanayisinde yıllık artış %29,09 olarak gerçekleşti.",
+   "one_cikanlar": [
+    "Yıllık Yİ-ÜFE Ağustos ayındaki %27,95'ten Eylül'de %27,38'e geriledi.",
+    "Aylık artış bir önceki aydaki %2,57'den %2,07'ye indi.",
+    "Sektörler arasında yıllık en yüksek artış %34,15 ile madencilik ve taş ocakçılığında görüldü.",
+    "Aylık bazda madencilik ve taş ocakçılığı %0,78 azalış kaydetti."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Yİ-ÜFE (Yıllık)",
+     "deger": "%27,38",
+     "degisim": "Ağustos: %27,95"
+    },
+    {
+     "etiket": "Yİ-ÜFE (Aylık)",
+     "deger": "%2,07",
+     "degisim": "Ağustos: %2,57"
+    },
+    {
+     "etiket": "12 Aylık Ortalama",
+     "deger": "%27,81",
+     "degisim": "Ağustos: %27,76"
+    },
+    {
+     "etiket": "Yıl Başına Göre (Aralık)",
+     "deger": "%23,38",
+     "degisim": "Ağustos: %20,88"
+    },
+    {
+     "etiket": "İmalat (Yıllık)",
+     "deger": "%29,09",
+     "degisim": "Ağustos: %29,68"
+    },
+    {
+     "etiket": "İmalat (Aylık)",
+     "deger": "%2,32",
+     "degisim": "Ağustos: %2,35"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-05T07:00:56+00:00"
+ },
+ {
   "id": 58239,
   "title": "Dış Ticaret İstatistikleri",
   "period": "Ağustos 2026",
