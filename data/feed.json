@@ -1,5 +1,361 @@
 [
  {
+  "id": 58205,
+  "title": "İnşaat Maliyet Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-10-09T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58205",
+  "headline": "İnşaat maliyet endeksi yıllık %29,59 arttı, aylık %2,04 arttı",
+  "next_release": "10 Kasım 2026",
+  "charts": [
+   {
+    "title": "İnşaat maliyet endeksi yıllık değişim oranı(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "İnşaat maliyet endeksi yıllık değişim oranı(%)",
+      "data": [
+       38.93,
+       37.94,
+       35.93,
+       34.27,
+       26.61,
+       23.94,
+       23.23,
+       22.69,
+       22.4,
+       23.58,
+       22.98,
+       22.82,
+       23.18,
+       22.57,
+       23.93,
+       24.5,
+       25.38,
+       25.72,
+       27.24,
+       28.58,
+       29.84,
+       28.66,
+       28.33,
+       29.59
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Bina inşaatı maliyet endeksi yıllık değişim oranı(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Bina inşaatı maliyet endeksi yıllık değişim oranı(%)",
+      "data": [
+       40.59,
+       39.06,
+       36.72,
+       34.67,
+       27.09,
+       24.44,
+       23.6,
+       23.14,
+       22.46,
+       23.21,
+       22.81,
+       22.53,
+       22.75,
+       22.29,
+       23.5,
+       24.55,
+       25.57,
+       25.72,
+       26.26,
+       27.11,
+       28.56,
+       28.54,
+       28.37,
+       28.94
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "İnşaat maliyet endeksi Ağustos 2026'da yıllık %29,59, aylık %2,04 arttı",
+   "ozet": "İnşaat maliyet endeksi 2026 yılı Ağustos ayında bir önceki aya göre %2,04, bir önceki yılın aynı ayına göre %29,59 arttı. Yıllık bazda malzeme endeksinde %28,72, işçilik endeksinde ise %31,20 artış gerçekleşti. Bina inşaatı maliyet endeksi yıllık %28,94 artarken, bina dışı yapılar için inşaat maliyeti yıllık %31,68 yükseldi.",
+   "one_cikanlar": [
+    "İnşaat maliyet endeksi yıllık %29,59, aylık %2,04 arttı.",
+    "Aylık bazda malzeme endeksi %2,73, işçilik endeksi %0,82 yükseldi.",
+    "Bina inşaatı maliyet endeksi aylık %1,59, yıllık %28,94 arttı.",
+    "Bina dışı yapılar için maliyet endeksi aylık %3,46, yıllık %31,68 artış kaydetti."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İME (Yıllık)",
+     "deger": "%29,59",
+     "degisim": "Temmuz 2026: %28,33"
+    },
+    {
+     "etiket": "İME (Aylık)",
+     "deger": "%2,04",
+     "degisim": "Temmuz 2026: %1,15"
+    },
+    {
+     "etiket": "Malzeme Endeksi (Yıllık)",
+     "deger": "%28,72",
+     "degisim": "Temmuz 2026: %27,13"
+    },
+    {
+     "etiket": "İşçilik Endeksi (Yıllık)",
+     "deger": "%31,20",
+     "degisim": "Temmuz 2026: %30,51"
+    },
+    {
+     "etiket": "Bina İnşaatı (Yıllık)",
+     "deger": "%28,94",
+     "degisim": "Temmuz 2026: %28,37"
+    },
+    {
+     "etiket": "Bina Dışı Yapılar (Yıllık)",
+     "deger": "%31,68",
+     "degisim": "Temmuz 2026: %28,19"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-09T07:01:01+00:00"
+ },
+ {
+  "id": 58196,
+  "title": "Sanayi Üretim Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-10-09T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58196",
+  "headline": "Sanayi üretimi yıllık %1,9 azaldı",
+  "next_release": "10 Kasım 2026",
+  "charts": [
+   {
+    "title": "Sanayi üretim endeksi yıllık değişimleri (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Sanayi üretim endeksi yıllık değişimleri(%)",
+      "data": [
+       -2.2,
+       -2.9,
+       1.7,
+       7.0,
+       1.1,
+       -2.0,
+       2.3,
+       3.0,
+       4.8,
+       8.2,
+       4.9,
+       7.1,
+       3.0,
+       2.1,
+       2.2,
+       -2.1,
+       -1.9,
+       2.2,
+       -1.2,
+       6.1,
+       -0.1,
+       -1.3,
+       -0.2,
+       -1.9
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Sanayi üretim endeksi aylık değişimleri (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Sanayi üretim endeksi aylık değişimleri(%)",
+      "data": [
+       1.5,
+       -0.8,
+       2.7,
+       5.2,
+       -2.3,
+       -2.0,
+       3.6,
+       -4.4,
+       3.9,
+       0.5,
+       -1.3,
+       0.4,
+       -2.1,
+       -1.0,
+       2.5,
+       1.2,
+       -2.9,
+       2.6,
+       -0.9,
+       3.8,
+       -3.1,
+       0.2,
+       -0.9,
+       -1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Sanayi üretimi Ağustos 2026'da yıllık %1,9, aylık %1,0 azaldı",
+   "ozet": "Sanayi üretimi 2026 yılı Ağustos ayında bir önceki yılın aynı ayına göre %1,9 azaldı. Aylık bazda ise sanayi üretiminde %1,0 düşüş gerçekleşti. Yıllık bazda imalat sanayi sektörü %2,5 daralırken, madencilik ve taş ocakçılığı %1,7, elektrik, gaz ve buhar sektörü %1,3 arttı.",
+   "one_cikanlar": [
+    "Sanayi üretimi yıllık bazda Temmuz ayındaki %0,3'lük düşüşün ardından Ağustos'ta %1,9 azaldı.",
+    "Aylık bazda sanayi üretimi Temmuz ayında olduğu gibi Ağustos'ta da %1,0 geriledi.",
+    "İmalat sanayi sektörü endeksi yıllık %2,5, aylık %1,6 azaldı.",
+    "Madencilik ve taş ocakçılığı aylık %4,1, elektrik, gaz ve buhar sektörü aylık %3,3 artış kaydetti."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Sanayi üretimi (yıllık)",
+     "deger": "%1,9 azaldı",
+     "degisim": "Temmuz 2026: %0,3 azaldı"
+    },
+    {
+     "etiket": "Sanayi üretimi (aylık)",
+     "deger": "%1,0 azaldı",
+     "degisim": "Temmuz 2026: %1,0 azaldı"
+    },
+    {
+     "etiket": "İmalat sanayi (yıllık)",
+     "deger": "%2,5 azaldı",
+     "degisim": "Temmuz 2026: %0,3 arttı"
+    },
+    {
+     "etiket": "Madencilik ve taş ocakçılığı (yıllık)",
+     "deger": "%1,7 arttı",
+     "degisim": "Temmuz 2026: %3,8 azaldı"
+    },
+    {
+     "etiket": "Elektrik, gaz ve buhar (yıllık)",
+     "deger": "%1,3 arttı",
+     "degisim": "Temmuz 2026: %5,6 azaldı"
+    },
+    {
+     "etiket": "İmalat sanayi (aylık)",
+     "deger": "%1,6 azaldı",
+     "degisim": "Temmuz 2026: %0,8 azaldı"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-09T07:00:47+00:00"
+ },
+ {
   "id": 58298,
   "title": "Tüketici Fiyat Endeksi",
   "period": "Eylül 2026",
