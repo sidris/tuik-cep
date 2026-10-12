@@ -1,5 +1,361 @@
 [
  {
+  "id": 58279,
+  "title": "Ciro Endeksleri",
+  "period": "Ağustos 2026",
+  "date": "2026-10-12T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58279",
+  "headline": "Toplam ciro yıllık %31,8 arttı",
+  "next_release": "11 Kasım 2026",
+  "charts": [
+   {
+    "title": "Toplam ciro yıllık değişim oranı(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Toplam ciro yıllık değişim oranı(%)",
+      "data": [
+       47.3,
+       41.8,
+       43.1,
+       43.3,
+       36.1,
+       32.2,
+       33.7,
+       34.0,
+       41.8,
+       45.7,
+       39.3,
+       37.3,
+       38.2,
+       35.4,
+       37.0,
+       35.4,
+       35.6,
+       34.6,
+       34.9,
+       35.7,
+       32.7,
+       26.0,
+       30.4,
+       31.8
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Toplam ciro aylık değişim oranı(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Toplam ciro aylık değişim oranı(%)",
+      "data": [
+       4.1,
+       2.2,
+       2.4,
+       4.8,
+       1.7,
+       3.1,
+       3.6,
+       1.0,
+       5.5,
+       3.9,
+       -1.4,
+       2.0,
+       4.4,
+       0.3,
+       3.3,
+       3.3,
+       2.0,
+       2.0,
+       4.0,
+       1.7,
+       2.7,
+       -0.4,
+       1.7,
+       3.0
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "TÜİK: Toplam ciro endeksi Ağustos 2026'da yıllık %31,8, aylık %3,0 arttı",
+   "ozet": "Sanayi, inşaat, ticaret ve hizmet sektörleri toplamında ciro endeksi, 2026 yılı Ağustos ayında yıllık %31,8, aylık %3,0 arttı. Temmuz ayında yıllık %30,2 ve aylık %1,7 artış kaydedilmişti. Ağustos ayında yıllık en yüksek artış %33,6 ile hizmet sektöründe görülürken, aylık bazda inşaat sektörü %3,7 azaldı.",
+   "one_cikanlar": [
+    "Toplam ciro endeksi yıllık %31,8, aylık %3,0 arttı.",
+    "Yıllık bazda hizmet %33,6, sanayi %32,6, ticaret %32,5 ve inşaat %19,2 artış gösterdi.",
+    "Aylık bazda ticaret %4,3, hizmet %2,6 ve sanayi %2,2 artarken, inşaat %3,7 azaldı.",
+    "Temmuz ayında %30,2 olan toplam ciro yıllık artışı Ağustos'ta %31,8'e yükseldi."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Toplam Ciro (Yıllık)",
+     "deger": "%31,8",
+     "degisim": "Temmuz 2026: %30,2"
+    },
+    {
+     "etiket": "Toplam Ciro (Aylık)",
+     "deger": "%3,0",
+     "degisim": "Temmuz 2026: %1,7"
+    },
+    {
+     "etiket": "Sanayi Cirosu (Yıllık)",
+     "deger": "%32,6",
+     "degisim": "Temmuz 2026: %31,5"
+    },
+    {
+     "etiket": "İnşaat Cirosu (Yıllık)",
+     "deger": "%19,2",
+     "degisim": "Temmuz 2026: %35,8"
+    },
+    {
+     "etiket": "Ticaret Cirosu (Yıllık)",
+     "deger": "%32,5",
+     "degisim": "Temmuz 2026: %27,7"
+    },
+    {
+     "etiket": "Hizmet Cirosu (Yıllık)",
+     "deger": "%33,6",
+     "degisim": "Temmuz 2026: %34,5"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-12T07:00:55+00:00"
+ },
+ {
+  "id": 58266,
+  "title": "Ticaret Satış Hacim Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-10-12T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58266",
+  "headline": "Ticaret satış hacmi yıllık %0,6 arttı, perakende satış hacmi yıllık %10,1 arttı",
+  "next_release": "11 Kasım 2026",
+  "charts": [
+   {
+    "title": "Ticaret satış hacmi yıllık değişim oranı (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Ticaret satış hacmi yıllık değişim oranı (%)",
+      "data": [
+       14.1,
+       7.2,
+       9.7,
+       10.9,
+       6.0,
+       6.8,
+       11.4,
+       10.6,
+       18.2,
+       22.9,
+       12.0,
+       7.6,
+       10.6,
+       7.0,
+       7.0,
+       4.4,
+       8.0,
+       4.4,
+       2.4,
+       0.4,
+       -1.5,
+       -4.5,
+       -0.5,
+       0.6
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Ticaret satış hacmi aylık değişim oranı (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Ticaret satış hacmi aylık değişim oranı (%)",
+      "data": [
+       2.8,
+       -1.3,
+       0.9,
+       4.1,
+       -3.0,
+       2.2,
+       3.7,
+       -1.2,
+       2.9,
+       4.8,
+       -6.6,
+       -0.9,
+       5.2,
+       -4.8,
+       0.8,
+       1.3,
+       0.0,
+       -0.6,
+       1.9,
+       -2.7,
+       0.6,
+       1.9,
+       -2.5,
+       0.2
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Ticaret Satış Hacmi Ağustos 2026'da Yıllık %0,6, Aylık %0,2 Arttı",
+   "ozet": "Ticaret satış hacmi 2026 yılı Ağustos ayında bir önceki yılın aynı ayına göre %0,6, bir önceki aya göre ise %0,2 arttı. Perakende ticaret satış hacminde yıllık %10,1, aylık %1,4 artış kaydedildi. Motorlu kara taşıtları ve motosikletlerin toptan ve perakende ticareti ile onarımı satış hacmi yıllık %11,2, toptan ticaret satış hacmi ise yıllık %1,9 azaldı.",
+   "one_cikanlar": [
+    "Ticaret satış hacmi yıllık %0,6, aylık %0,2 arttı.",
+    "Perakende ticaret satış hacmi yıllık %10,1, aylık %1,4 yükseldi.",
+    "Motorlu kara taşıtları ve motosikletlerin ticareti/onarımı yıllık %11,2, aylık %1,0 geriledi.",
+    "Toptan ticaret satış hacmi yıllık %1,9, aylık %0,2 azalış gösterdi."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Ticaret Satış Hacmi (Yıllık)",
+     "deger": "%0,6",
+     "degisim": "Temmuz 2026'da %-0,6"
+    },
+    {
+     "etiket": "Ticaret Satış Hacmi (Aylık)",
+     "deger": "%0,2",
+     "degisim": "Temmuz 2026'da %-2,5"
+    },
+    {
+     "etiket": "Perakende Ticaret Satış Hacmi (Yıllık)",
+     "deger": "%10,1",
+     "degisim": "Temmuz 2026'da %10,4"
+    },
+    {
+     "etiket": "Perakende Ticaret Satış Hacmi (Aylık)",
+     "deger": "%1,4",
+     "degisim": "Temmuz 2026'da %0,2"
+    },
+    {
+     "etiket": "Motorlu Kara Taşıtları ve Onarımı (Yıllık)",
+     "deger": "%-11,2",
+     "degisim": "Temmuz 2026'da %-9,8"
+    },
+    {
+     "etiket": "Toptan Ticaret Satış Hacmi (Yıllık)",
+     "deger": "%-1,9",
+     "degisim": "Temmuz 2026'da %-4,2"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-12T07:00:38+00:00"
+ },
+ {
   "id": 58205,
   "title": "İnşaat Maliyet Endeksi",
   "period": "Ağustos 2026",

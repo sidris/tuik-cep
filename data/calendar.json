@@ -1,15 +1,5 @@
 [
  {
-  "title": "Ciro Endeksleri",
-  "date": "2026-10-12",
-  "source_id": 58283
- },
- {
-  "title": "Ticaret Satış Hacim Endeksi",
-  "date": "2026-10-12",
-  "source_id": 58265
- },
- {
   "title": "Dış Ticaret Endeksleri",
   "date": "2026-10-13",
   "source_id": 58246
@@ -93,5 +83,15 @@
   "title": "İnşaat Maliyet Endeksi",
   "date": "2026-11-10",
   "source_id": 58205
+ },
+ {
+  "title": "Ciro Endeksleri",
+  "date": "2026-11-11",
+  "source_id": 58279
+ },
+ {
+  "title": "Ticaret Satış Hacim Endeksi",
+  "date": "2026-11-11",
+  "source_id": 58266
  }
 ]
