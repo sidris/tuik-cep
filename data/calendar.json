@@ -1,10 +1,5 @@
 [
  {
-  "title": "Dış Ticaret Endeksleri",
-  "date": "2026-10-13",
-  "source_id": 58246
- },
- {
   "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
   "date": "2026-10-14",
   "source_id": 57971
@@ -93,5 +88,10 @@
   "title": "Ticaret Satış Hacim Endeksi",
   "date": "2026-11-11",
   "source_id": 58266
+ },
+ {
+  "title": "Dış Ticaret Endeksleri",
+  "date": "2026-11-12",
+  "source_id": 58257
  }
 ]
