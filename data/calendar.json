@@ -1,10 +1,5 @@
 [
  {
-  "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
-  "date": "2026-10-14",
-  "source_id": 57971
- },
- {
   "title": "Hizmet Üretim Endeksi",
   "date": "2026-10-15",
   "source_id": 58330
@@ -93,5 +88,10 @@
   "title": "Dış Ticaret Endeksleri",
   "date": "2026-11-12",
   "source_id": 58257
+ },
+ {
+  "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
+  "date": "2026-11-17",
+  "source_id": 57972
  }
 ]
