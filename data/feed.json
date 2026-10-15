@@ -1,5 +1,587 @@
 [
  {
+  "id": 58331,
+  "title": "Hizmet Üretim Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-10-15T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58331",
+  "headline": "Hizmet üretim endeksi yıllık %2,3 arttı",
+  "next_release": "13 Kasım 2026",
+  "charts": [
+   {
+    "title": "Hizmet üretim endeksi yıllık değişim oranları (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Hizmet üretim endeksi yıllık değişim oranları (%)",
+      "data": [
+       1.4,
+       -0.5,
+       1.4,
+       3.1,
+       7.1,
+       1.5,
+       1.6,
+       4.0,
+       4.3,
+       3.8,
+       2.4,
+       3.9,
+       3.0,
+       3.2,
+       4.1,
+       4.0,
+       -0.5,
+       2.3,
+       2.7,
+       2.4,
+       0.1,
+       1.7,
+       3.1,
+       2.3
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Hizmet üretim endeksi aylık değişim oranı (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Hizmet üretim endeksi aylık değişim oranı (%)",
+      "data": [
+       0.9,
+       0.0,
+       -0.1,
+       1.1,
+       3.4,
+       -1.7,
+       0.2,
+       -0.2,
+       1.7,
+       -0.7,
+       -0.8,
+       1.0,
+       -0.4,
+       -0.1,
+       0.1,
+       0.9,
+       -0.2,
+       1.1,
+       0.2,
+       -0.3,
+       -0.4,
+       0.8,
+       0.9,
+       0.2
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Hizmet üretim endeksi Ağustos 2026'da yıllık %2,3, aylık %0,2 arttı",
+   "ozet": "Hizmet üretim endeksi 2026 yılı Ağustos ayında bir önceki yılın aynı ayına göre %2,3, bir önceki aya göre ise %0,2 arttı. Yıllık bazda en yüksek artış %9,9 ile bilgi ve iletişim sektöründe yaşanırken, gayrimenkul hizmetleri %7,5 azaldı. Endeks bir önceki ay olan Temmuz 2026'da yıllık %3,0 ve aylık %1,0 artış göstermişti.",
+   "one_cikanlar": [
+    "Hizmet üretim endeksi yıllık %2,3 arttı (Temmuz: %3,0).",
+    "Hizmet üretim endeksi aylık %0,2 arttı (Temmuz: %1,0).",
+    "Yıllık bazda en çok artan sektör %9,9 ile bilgi ve iletişim oldu.",
+    "Gayrimenkul hizmetleri yıllık bazda %7,5 azaldı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Yıllık Değişim",
+     "deger": "%2,3",
+     "degisim": "Temmuz 2026'da %3,0"
+    },
+    {
+     "etiket": "Aylık Değişim",
+     "deger": "%0,2",
+     "degisim": "Temmuz 2026'da %1,0"
+    },
+    {
+     "etiket": "Bilgi ve İletişim (Yıllık)",
+     "deger": "%9,9",
+     "degisim": ""
+    },
+    {
+     "etiket": "Gayrimenkul (Yıllık)",
+     "deger": "-%7,5",
+     "degisim": ""
+    },
+    {
+     "etiket": "Konaklama ve Yiyecek (Yıllık)",
+     "deger": "%2,0",
+     "degisim": ""
+    },
+    {
+     "etiket": "Ulaştırma ve Depolama (Yıllık)",
+     "deger": "%1,8",
+     "degisim": ""
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-15T07:01:16+00:00"
+ },
+ {
+  "id": 58316,
+  "title": "İnşaat Üretim Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-10-15T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58316",
+  "headline": "İnşaat üretimi yıllık %2,3 arttı",
+  "next_release": "13 Kasım 2026",
+  "charts": [
+   {
+    "title": "İnşaat üretim endeksi yıllık değişimleri(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "İnşaat üretim endeksi yıllık değişimleri(%)",
+      "data": [
+       8.0,
+       3.3,
+       7.4,
+       10.9,
+       8.7,
+       6.1,
+       4.2,
+       2.4,
+       12.2,
+       16.4,
+       15.4,
+       16.2,
+       20.7,
+       19.1,
+       13.5,
+       7.5,
+       7.8,
+       5.7,
+       -1.1,
+       1.8,
+       -3.2,
+       -5.7,
+       -4.5,
+       2.3
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İnşaat üretim endeksi aylık değişimleri(%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "İnşaat üretim endeksi aylık değişimleri(%)",
+      "data": [
+       0.4,
+       -0.6,
+       3.6,
+       6.1,
+       1.2,
+       0.9,
+       -0.4,
+       -2.2,
+       4.2,
+       2.9,
+       0.7,
+       -1.8,
+       4.2,
+       -1.4,
+       -0.8,
+       0.7,
+       0.9,
+       -1.5,
+       -5.4,
+       0.3,
+       -0.2,
+       -0.1,
+       1.4,
+       4.0
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "İnşaat Üretim Endeksi Ağustos 2026'da yıllık %2,3, aylık %4,0 arttı",
+   "ozet": "İnşaat üretimi 2026 yılı Ağustos ayında bir önceki yılın aynı ayına göre %2,3, bir önceki aya göre %4,0 arttı. Bir önceki ay yıllık %4,7 azalan endeks, Ağustos ayında yeniden yıllık artış kaydetti. Alt sektörler arasında yıllık bazda en belirgin yükseliş %21,8 ile bina dışı yapıların inşaatı sektöründe görüldü.",
+   "one_cikanlar": [
+    "İnşaat üretimi yıllık %2,3 artış gösterdi (Temmuz: -%4,7).",
+    "Aylık bazda inşaat üretimi %4,0 arttı (Temmuz: %1,1).",
+    "Bina dışı yapıların inşaatı sektörü endeksi yıllık %21,8 arttı.",
+    "Bina inşaatı endeksi yıllık %0,9 azalırken, aylık %4,5 arttı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İnşaat üretimi (yıllık)",
+     "deger": "%2,3",
+     "degisim": "Temmuz: -%4,7"
+    },
+    {
+     "etiket": "İnşaat üretimi (aylık)",
+     "deger": "%4,0",
+     "degisim": "Temmuz: %1,1"
+    },
+    {
+     "etiket": "Bina inşaatı (yıllık)",
+     "deger": "-%0,9",
+     "degisim": "Temmuz: -%8,0"
+    },
+    {
+     "etiket": "Bina dışı yapılar (yıllık)",
+     "deger": "%21,8",
+     "degisim": "Temmuz: %14,0"
+    },
+    {
+     "etiket": "Özel inşaat faaliyetleri (yıllık)",
+     "deger": "%0,1",
+     "degisim": "Temmuz: -%4,9"
+    },
+    {
+     "etiket": "Bina inşaatı (aylık)",
+     "deger": "%4,5",
+     "degisim": "Temmuz: %0,9"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-15T07:01:29+00:00"
+ },
+ {
+  "id": 57956,
+  "title": "Ücretli Çalışan İstatistikleri",
+  "period": "Ağustos 2026",
+  "date": "2026-10-15T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/57956",
+  "headline": "Ücretli çalışan sayısı yıllık %2,0 arttı",
+  "next_release": "16 Kasım 2026",
+  "charts": [
+   {
+    "title": "Ücretli çalışanlar, Ağustos 2026",
+    "type": "bar",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Ücretli çalışanlar",
+      "data": [
+       15991589.0,
+       15860031.0,
+       15740143.0,
+       15583773.0,
+       15410257.0,
+       15297723.0,
+       15320850.0,
+       15662751.0,
+       15892187.0,
+       15932665.0,
+       16114128.0,
+       16089037.0,
+       16180976.0,
+       16041887.0,
+       15904091.0,
+       15780063.0,
+       15459562.0,
+       15512578.0,
+       15612596.0,
+       15990487.0,
+       15978331.0,
+       16356882.0,
+       16442172.0,
+       16409588.0
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Ücretli çalışanların aylık değişim oranları",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "B-N Toplam (Sanayi, inşaat, ticaret ve hizmetler)",
+      "data": [
+       0.2,
+       0.1,
+       0.2,
+       0.0,
+       0.2,
+       -0.3,
+       -0.2,
+       0.7,
+       0.2,
+       -0.3,
+       0.3,
+       0.0,
+       0.2,
+       0.0,
+       0.2,
+       0.1,
+       -0.3,
+       0.5,
+       0.2,
+       0.5,
+       -0.5,
+       1.0,
+       0.1,
+       0.0
+      ]
+     },
+     {
+      "label": "B-E-Sanayi",
+      "data": [
+       -0.2,
+       -0.5,
+       -0.1,
+       -0.1,
+       -0.4,
+       -0.4,
+       -0.6,
+       0.2,
+       -0.4,
+       -0.6,
+       0.0,
+       -0.5,
+       -0.3,
+       -0.4,
+       -0.1,
+       0.0,
+       -0.3,
+       0.1,
+       -0.3,
+       0.3,
+       -0.8,
+       0.9,
+       0.0,
+       -0.2
+      ]
+     },
+     {
+      "label": "F-İnşaat",
+      "data": [
+       0.3,
+       1.0,
+       0.2,
+       0.2,
+       1.9,
+       -1.2,
+       -0.7,
+       2.6,
+       1.0,
+       -0.3,
+       1.0,
+       0.4,
+       0.5,
+       0.2,
+       0.6,
+       0.4,
+       -1.6,
+       1.1,
+       1.0,
+       0.8,
+       -1.2,
+       2.1,
+       0.0,
+       0.0
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Ücretli çalışan sayısı Ağustos 2026'da yıllık %2,0 artarak 16 milyon 409 bin 588 kişi oldu",
+   "ozet": "Sanayi, inşaat ve ticaret-hizmet sektörleri toplamında ücretli çalışan sayısı 2026 yılı Ağustos ayında bir önceki yılın aynı ayına göre %2,0 arttı. Temmuz 2026'da %1,7 olan yıllık artış hızı Ağustos'ta yükselirken, aylık bazda toplam çalışan sayısı değişim göstermedi. Yıllık bazda inşaatta %3,4 ve ticaret-hizmet sektöründe %3,3 artış görülürken, sanayi sektöründe çalışan sayısı %1,0 azaldı.",
+   "one_cikanlar": [
+    "Toplam ücretli çalışan sayısı yıllık %2,0 artışla 16 milyon 409 bin 588 kişiye ulaştı.",
+    "Ücretli çalışan sayısı bir önceki aya göre yüzdesel olarak değişim göstermedi.",
+    "Yıllık bazda çalışan sayısı inşaatta %3,4 ve ticaret-hizmette %3,3 artarken, sanayide %1,0 düştü.",
+    "Aylık bazda sanayi %0,2 azalırken, inşaat değişmedi, ticaret-hizmet sektörü ise %0,2 arttı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Toplam Ücretli Çalışan",
+     "deger": "16 409 588",
+     "degisim": "%2,0"
+    },
+    {
+     "etiket": "Sanayi",
+     "deger": "4 835 657",
+     "degisim": "-%1,0"
+    },
+    {
+     "etiket": "İnşaat",
+     "deger": "2 079 820",
+     "degisim": "%3,4"
+    },
+    {
+     "etiket": "Ticaret ve Hizmetler",
+     "deger": "9 494 111",
+     "degisim": "%3,3"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-15T07:00:59+00:00"
+ },
+ {
   "id": 57972,
   "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
   "period": "Eylül 2026",
