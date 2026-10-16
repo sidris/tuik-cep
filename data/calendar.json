@@ -1,10 +1,5 @@
 [
  {
-  "title": "Konut ve İş Yeri Satış İstatistikleri",
-  "date": "2026-10-16",
-  "source_id": 58346
- },
- {
   "title": "Tarımsal Girdi Fiyat Endeksi",
   "date": "2026-10-19",
   "source_id": 58084
@@ -88,6 +83,11 @@
   "title": "Ücretli Çalışan İstatistikleri",
   "date": "2026-11-16",
   "source_id": 57956
+ },
+ {
+  "title": "Konut ve İş Yeri Satış İstatistikleri",
+  "date": "2026-11-17",
+  "source_id": 58347
  },
  {
   "title": "Tarım Ürünleri Üretici Fiyat Endeksi",

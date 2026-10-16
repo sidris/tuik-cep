@@ -1,5 +1,241 @@
 [
  {
+  "id": 58347,
+  "title": "Konut ve İş Yeri Satış İstatistikleri",
+  "period": "Eylül 2026",
+  "date": "2026-10-16T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58347",
+  "headline": "İlk el konut satışları 51 bin 519, ikinci el konut satışları 90 bin 871 olarak gerçekleşti",
+  "next_release": "17 Kasım 2026",
+  "charts": [
+   {
+    "title": "Satış durumuna göre konut satışı, Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "İlk el satışlar",
+      "data": [
+       60513.0,
+       52168.0,
+       81219.0,
+       34783.0,
+       35695.0,
+       35281.0,
+       36775.0,
+       41860.0,
+       35267.0,
+       46514.0,
+       46459.0,
+       49608.0,
+       57675.0,
+       49174.0,
+       101721.0,
+       34069.0,
+       37785.0,
+       35725.0,
+       40306.0,
+       30196.0,
+       43406.0,
+       42529.0,
+       44378.0,
+       51519.0
+      ]
+     },
+     {
+      "label": "İkinci el satışlar",
+      "data": [
+       111106.0,
+       107637.0,
+       140893.0,
+       82242.0,
+       81891.0,
+       80507.0,
+       86794.0,
+       93804.0,
+       76929.0,
+       102425.0,
+       102981.0,
+       107310.0,
+       113280.0,
+       97815.0,
+       163502.0,
+       77411.0,
+       86764.0,
+       77642.0,
+       86502.0,
+       63137.0,
+       86573.0,
+       81074.0,
+       83032.0,
+       90871.0
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Satış şekline göre konut satışı, Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "İpotekli satışlar",
+      "data": [
+       21979.0,
+       22789.0,
+       24480.0,
+       17516.0,
+       17593.0,
+       19109.0,
+       18340.0,
+       20325.0,
+       15101.0,
+       19315.0,
+       20646.0,
+       22264.0,
+       24684.0,
+       22523.0,
+       30604.0,
+       20263.0,
+       25035.0,
+       25978.0,
+       25771.0,
+       19754.0,
+       25993.0,
+       23888.0,
+       22131.0,
+       23397.0
+      ]
+     },
+     {
+      "label": "Diğer satışlar",
+      "data": [
+       149640.0,
+       137016.0,
+       197632.0,
+       99509.0,
+       99993.0,
+       96679.0,
+       105229.0,
+       115339.0,
+       97095.0,
+       129624.0,
+       128794.0,
+       134654.0,
+       146271.0,
+       124466.0,
+       234619.0,
+       91217.0,
+       99514.0,
+       87389.0,
+       101037.0,
+       73579.0,
+       103986.0,
+       99715.0,
+       105279.0,
+       118993.0
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Eylül 2026'da konut satışları %9,3 azalarak 142 bin 390 oldu",
+   "ozet": "Türkiye genelinde toplam konut satışları Eylül ayında bir önceki yılın aynı ayına göre %9,3 azalarak 142 bin 390 olarak gerçekleşti. İlk el konut satışları %3,9 artışla 51 bin 519'a yükselirken, ikinci el konut satışları %15,3 düşüşle 90 bin 871'e geriledi. İpotekli konut satışları %5,1 artarak 23 bin 397 olurken, yabancılara yapılan konut satışları %9,9 artışla 2 bin 167 adede ulaştı.",
+   "one_cikanlar": [
+    "Toplam konut satışları yıllık %9,3 azalışla 142 bin 390 adet oldu.",
+    "İlk el konut satışları %3,9 artarak 51 bin 519, ikinci el satışlar %15,3 azalarak 90 bin 871 oldu.",
+    "İpotekli konut satışları yıllık %5,1 artışla 23 bin 397 adede çıktı.",
+    "Yabancılara konut satışı %9,9 artarak 2 bin 167 oldu; 388 satışla Rusya Federasyonu ilk sırada yer aldı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Toplam Konut Satışı",
+     "deger": "142 390",
+     "degisim": "%-9,3"
+    },
+    {
+     "etiket": "İlk El Konut Satışı",
+     "deger": "51 519",
+     "degisim": "%3,9"
+    },
+    {
+     "etiket": "İkinci El Konut Satışı",
+     "deger": "90 871",
+     "degisim": "%-15,3"
+    },
+    {
+     "etiket": "İpotekli Konut Satışı",
+     "deger": "23 397",
+     "degisim": "%5,1"
+    },
+    {
+     "etiket": "Yabancılara Konut Satışı",
+     "deger": "2 167",
+     "degisim": "%9,9"
+    },
+    {
+     "etiket": "Toplam İş Yeri Satışı",
+     "deger": "17 345",
+     "degisim": "%-3,8"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-16T07:00:50+00:00"
+ },
+ {
   "id": 58331,
   "title": "Hizmet Üretim Endeksi",
   "period": "Ağustos 2026",
