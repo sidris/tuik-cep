@@ -1,10 +1,5 @@
 [
  {
-  "title": "Tarımsal Girdi Fiyat Endeksi",
-  "date": "2026-10-19",
-  "source_id": 58084
- },
- {
   "title": "Yurt Dışı Üretici Fiyat Endeksi",
   "date": "2026-10-20",
   "source_id": 58110
@@ -93,5 +88,10 @@
   "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
   "date": "2026-11-17",
   "source_id": 57972
+ },
+ {
+  "title": "Tarımsal Girdi Fiyat Endeksi",
+  "date": "2026-11-20",
+  "source_id": 58085
  }
 ]

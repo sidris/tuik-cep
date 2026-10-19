@@ -1,5 +1,122 @@
 [
  {
+  "id": 58085,
+  "title": "Tarımsal Girdi Fiyat Endeksi",
+  "period": "Ağustos 2026",
+  "date": "2026-10-19T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58085",
+  "headline": "Tarımsal girdi fiyat endeksi (Tarım-GFE) yıllık %30,28 arttı, aylık %3,41 arttı",
+  "next_release": "20 Kasım 2026",
+  "charts": [
+   {
+    "title": "Tarım-GFE yıllık değişim oranı (%), Ağustos 2026",
+    "type": "line",
+    "labels": [
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08"
+    ],
+    "series": [
+     {
+      "label": "Tarım-GFE yıllık değişim oranı (%)",
+      "data": [
+       31.83,
+       32.59,
+       32.92,
+       32.49,
+       30.49,
+       28.92,
+       29.73,
+       30.12,
+       31.8,
+       33.88,
+       34.22,
+       34.09,
+       34.6,
+       33.66,
+       34.24,
+       33.15,
+       30.59,
+       31.55,
+       34.26,
+       38.97,
+       36.65,
+       32.06,
+       27.62,
+       30.28
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Tarım-GFE Ağustos 2026'da yıllık %30,28, aylık %3,41 arttı",
+   "ozet": "Tarımsal girdi fiyat endeksi (Tarım-GFE) 2026 yılı Ağustos ayında bir önceki aya göre %3,41, bir önceki yılın aynı ayına göre %30,28 artış kaydetti. Temmuz ayında %27,62 olan yıllık artış oranı Ağustos ayında yükselirken, endeks 1 034,89 seviyesine ulaştı. Hem yıllık (%43,14) hem de aylık (%9,58) bazda en yüksek artış enerji ve yağlayıcılar alt grubunda gerçekleşti.",
+   "one_cikanlar": [
+    "Tarım-GFE yıllık %30,28, aylık %3,41 artış gösterdi.",
+    "Tarımda kullanılan mal ve hizmetler endeksi yıllık %31,63, aylık %3,77 arttı.",
+    "Tarımsal yatırıma katkı sağlayan mal ve hizmetlerde yıllık artış %22,16 oldu.",
+    "Yıllıkta (%43,14) ve aylıkta (%9,58) en yüksek artış enerji ve yağlayıcılar grubunda görüldü."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Tarım-GFE (Yıllık)",
+     "deger": "%30,28",
+     "degisim": "Temmuz: %27,62"
+    },
+    {
+     "etiket": "Tarım-GFE (Aylık)",
+     "deger": "%3,41",
+     "degisim": "Temmuz: %0,20"
+    },
+    {
+     "etiket": "Tarım-GFE Endeksi",
+     "deger": "1 034,89",
+     "degisim": "Temmuz: 1 000,76"
+    },
+    {
+     "etiket": "On İki Aylık Ortalamalara Göre",
+     "deger": "%33,05",
+     "degisim": "Temmuz: %33,39"
+    },
+    {
+     "etiket": "Tarımda Kullanılan Mal ve Hizmetler (Yıllık)",
+     "deger": "%31,63",
+     "degisim": "Temmuz: %28,82"
+    },
+    {
+     "etiket": "Enerji ve Yağlayıcılar (Yıllık)",
+     "deger": "%43,14",
+     "degisim": ""
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-19T07:01:00+00:00"
+ },
+ {
   "id": 58347,
   "title": "Konut ve İş Yeri Satış İstatistikleri",
   "period": "Eylül 2026",
