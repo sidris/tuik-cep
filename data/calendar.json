@@ -1,10 +1,5 @@
 [
  {
-  "title": "Yurt Dışı Üretici Fiyat Endeksi",
-  "date": "2026-10-20",
-  "source_id": 58110
- },
- {
   "title": "Tüketici Güven Endeksi",
   "date": "2026-10-22",
   "source_id": 58177
@@ -93,5 +88,10 @@
   "title": "Tarımsal Girdi Fiyat Endeksi",
   "date": "2026-11-20",
   "source_id": 58085
+ },
+ {
+  "title": "Yurt Dışı Üretici Fiyat Endeksi",
+  "date": "2026-11-20",
+  "source_id": 58116
  }
 ]

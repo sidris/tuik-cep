@@ -1,5 +1,122 @@
 [
  {
+  "id": 58116,
+  "title": "Yurt Dışı Üretici Fiyat Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-10-20T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58116",
+  "headline": "Yurt Dışı Üretici Fiyat Endeksi (YD-ÜFE) yıllık %33,64 arttı, aylık %2,82 arttı",
+  "next_release": "20 Kasım 2026",
+  "charts": [
+   {
+    "title": "YD-ÜFE yıllık değişim oranı (%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "YD-ÜFE yıllık değişim oranı(%)",
+      "data": [
+       30.7,
+       25.19,
+       23.5,
+       20.47,
+       20.08,
+       19.34,
+       22.92,
+       25.34,
+       28.38,
+       30.06,
+       28.01,
+       27.71,
+       28.75,
+       31.19,
+       32.46,
+       35.12,
+       35.55,
+       35.4,
+       35.07,
+       34.16,
+       30.33,
+       29.67,
+       32.6,
+       33.64
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "YD-ÜFE Eylül 2026'da yıllık %33,64, aylık %2,82 arttı",
+   "ozet": "Yurt Dışı Üretici Fiyat Endeksi (YD-ÜFE) 2026 yılı Eylül ayında bir önceki aya göre %2,82, bir önceki yılın aynı ayına göre %33,64 artış kaydetti. Sanayinin iki temel sektöründen madencilik ve taş ocakçılığında yıllık %44,35, imalatta ise %33,45 artış gerçekleşti. Ana sanayi grupları arasında yıllık bazda en belirgin artış %130,31 ile enerjide görüldü.",
+   "one_cikanlar": [
+    "YD-ÜFE yıllık artışı Ağustos'taki %32,60 seviyesinden %33,64'e yükseldi.",
+    "Aylık artış bir önceki aydaki %3,61 seviyesinden %2,82'ye geriledi.",
+    "İmalat sanayisinde yıllık artış %33,45, aylık artış %2,81 oldu.",
+    "Enerji sektöründe yıllık %130,31 ve aylık %15,45 oranında artış kaydedildi."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "YD-ÜFE (Yıllık)",
+     "deger": "%33,64",
+     "degisim": "Ağustos 2026'da %32,60"
+    },
+    {
+     "etiket": "YD-ÜFE (Aylık)",
+     "deger": "%2,82",
+     "degisim": "Ağustos 2026'da %3,61"
+    },
+    {
+     "etiket": "YD-ÜFE (Yıl Sonuna Göre)",
+     "deger": "%28,69",
+     "degisim": "Ağustos 2026'da %25,16"
+    },
+    {
+     "etiket": "YD-ÜFE (12 Aylık Ort.)",
+     "deger": "%32,82",
+     "degisim": "Ağustos 2026'da %32,35"
+    },
+    {
+     "etiket": "İmalat (Yıllık)",
+     "deger": "%33,45",
+     "degisim": "Ağustos 2026'da %32,41"
+    },
+    {
+     "etiket": "Enerji (Yıllık)",
+     "deger": "%130,31",
+     "degisim": "Ağustos 2026'da %106,24"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-20T07:00:43+00:00"
+ },
+ {
   "id": 58085,
   "title": "Tarımsal Girdi Fiyat Endeksi",
   "period": "Ağustos 2026",
