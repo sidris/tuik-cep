@@ -1,10 +1,5 @@
 [
  {
-  "title": "Tüketici Güven Endeksi",
-  "date": "2026-10-22",
-  "source_id": 58177
- },
- {
   "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
   "date": "2026-10-26",
   "source_id": 58158
@@ -88,6 +83,11 @@
   "title": "Tarımsal Girdi Fiyat Endeksi",
   "date": "2026-11-20",
   "source_id": 58085
+ },
+ {
+  "title": "Tüketici Güven Endeksi",
+  "date": "2026-11-20",
+  "source_id": 58178
  },
  {
   "title": "Yurt Dışı Üretici Fiyat Endeksi",
