@@ -1,10 +1,5 @@
 [
  {
-  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
-  "date": "2026-10-26",
-  "source_id": 58158
- },
- {
   "title": "İşgücü İstatistikleri",
   "date": "2026-10-27",
   "source_id": 57987
@@ -93,5 +88,10 @@
   "title": "Yurt Dışı Üretici Fiyat Endeksi",
   "date": "2026-11-20",
   "source_id": 58116
+ },
+ {
+  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
+  "date": "2026-11-24",
+  "source_id": 58159
  }
 ]

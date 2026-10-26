@@ -1,5 +1,180 @@
 [
  {
+  "id": 58159,
+  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
+  "period": "Ekim 2026",
+  "date": "2026-10-26T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58159",
+  "headline": "Güven endeksi hizmet sektöründe %2,4 azaldı, perakende ticaret sektöründe %1,1 arttı, inşaat sektöründe %0,4 arttı",
+  "next_release": "24 Kasım 2026",
+  "charts": [
+   {
+    "title": "Mevsim etkilerinden arındırılmış güven endeksleri, Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "Hizmet sektörü",
+      "data": [
+       110.95,
+       113.6,
+       116.49,
+       114.23,
+       114.42,
+       109.54,
+       110.49,
+       110.89,
+       109.96,
+       111.13,
+       111.04,
+       110.72,
+       111.82,
+       112.3,
+       113.78,
+       113.79,
+       113.21,
+       109.73,
+       109.03,
+       110.51,
+       112.04,
+       111.9,
+       111.94,
+       109.24
+      ]
+     },
+     {
+      "label": "Perakende ticaret sektörü",
+      "data": [
+       111.67,
+       113.02,
+       114.55,
+       116.33,
+       113.41,
+       110.59,
+       111.23,
+       108.45,
+       107.89,
+       108.8,
+       109.22,
+       113.22,
+       114.21,
+       115.42,
+       112.63,
+       115.91,
+       113.58,
+       111.56,
+       112.46,
+       112.76,
+       110.96,
+       110.11,
+       111.3,
+       112.55
+      ]
+     },
+     {
+      "label": "İnşaat sektörü",
+      "data": [
+       87.81,
+       89.44,
+       91.73,
+       89.29,
+       88.88,
+       85.12,
+       88.44,
+       86.9,
+       88.85,
+       85.25,
+       88.32,
+       83.67,
+       84.93,
+       84.47,
+       85.71,
+       83.91,
+       80.64,
+       83.55,
+       82.09,
+       82.96,
+       83.49,
+       83.13,
+       82.97,
+       83.32
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Hizmet güven endeksi Ekim'de %2,4 azalarak 109,2 oldu; perakende %1,1, inşaat %0,4 arttı",
+   "ozet": "Mevsim etkilerinden arındırılmış güven endeksi Ekim 2026'da bir önceki aya göre hizmet sektöründe %2,4 azalarak 109,2 değerini aldı. Perakende ticaret sektöründe güven endeksi %1,1 artışla 112,5'e, inşaat sektöründe ise %0,4 artışla 83,3'e yükseldi. Hizmet ve perakende ticaret sektörleri 100 eşik değerinin üzerinde kalarak iyimserliğini korurken, inşaat sektörü 100'ün altında kötümser bölgede kalmayı sürdürdü.",
+   "one_cikanlar": [
+    "Hizmet sektörü güven endeksi Eylül'deki 111,9 seviyesinden %2,4 düşüşle 109,2'ye geriledi.",
+    "Perakende ticaret sektörü güven endeksi %1,1 artışla 111,3'ten 112,5 değerine çıktı.",
+    "İnşaat sektörü güven endeksi %0,4 artış göstererek 83,0'dan 83,3'e yükseldi.",
+    "Perakende sektöründe son 3 aylık dönemde iş hacmi-satışlar endeksi %6,2 artarak 121,5 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Hizmet sektörü güven endeksi",
+     "deger": "109,2",
+     "degisim": "%-2,4"
+    },
+    {
+     "etiket": "Perakende ticaret sektörü güven endeksi",
+     "deger": "112,5",
+     "degisim": "%1,1"
+    },
+    {
+     "etiket": "İnşaat sektörü güven endeksi",
+     "deger": "83,3",
+     "degisim": "%0,4"
+    },
+    {
+     "etiket": "Son 3 aylık iş hacmi-satışlar (perakende)",
+     "deger": "121,5",
+     "degisim": "%6,2"
+    },
+    {
+     "etiket": "Gelecek 3 aylık iş hacmi-satışlar beklentisi (perakende)",
+     "deger": "123,6",
+     "degisim": "%-3,4"
+    },
+    {
+     "etiket": "Gelecek 3 aylık hizmetlere talep beklentisi",
+     "deger": "115,0",
+     "degisim": "%-0,7"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-26T07:00:37+00:00"
+ },
+ {
   "id": 58178,
   "title": "Tüketici Güven Endeksi",
   "period": "Ekim 2026",
