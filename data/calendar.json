@@ -1,10 +1,5 @@
 [
  {
-  "title": "İşgücü İstatistikleri",
-  "date": "2026-10-27",
-  "source_id": 57987
- },
- {
   "title": "Hizmet Üretici Fiyat Endeksi",
   "date": "2026-10-28",
   "source_id": 58098
@@ -93,5 +88,10 @@
   "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
   "date": "2026-11-24",
   "source_id": 58159
+ },
+ {
+  "title": "İşgücü İstatistikleri",
+  "date": "2026-11-30",
+  "source_id": 57988
  }
 ]

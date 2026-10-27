@@ -1,5 +1,299 @@
 [
  {
+  "id": 57988,
+  "title": "İşgücü İstatistikleri",
+  "period": "Eylül 2026",
+  "date": "2026-10-27T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/57988",
+  "headline": "Mevsim etkisinden arındırılmış işsizlik oranı %8,4 seviyesinde gerçekleşti",
+  "next_release": "30 Kasım 2026",
+  "charts": [
+   {
+    "title": "İşsizlik oranı, Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Toplam",
+      "data": [
+       8.7,
+       8.4,
+       8.6,
+       8.5,
+       8.2,
+       8.0,
+       8.7,
+       8.4,
+       8.7,
+       8.1,
+       8.6,
+       8.5,
+       8.4,
+       8.6,
+       7.8,
+       8.1,
+       8.4,
+       8.1,
+       8.2,
+       8.1,
+       7.7,
+       8.2,
+       7.9,
+       8.4
+      ]
+     },
+     {
+      "label": "Erkek",
+      "data": [
+       6.9,
+       6.8,
+       7.1,
+       6.6,
+       6.8,
+       6.6,
+       7.1,
+       6.5,
+       7.2,
+       6.5,
+       6.9,
+       7.3,
+       7.0,
+       7.0,
+       6.4,
+       6.7,
+       6.9,
+       6.8,
+       6.8,
+       6.9,
+       6.5,
+       6.9,
+       6.7,
+       6.9
+      ]
+     },
+     {
+      "label": "Kadın",
+      "data": [
+       12.0,
+       11.4,
+       11.5,
+       12.0,
+       10.8,
+       10.7,
+       11.5,
+       12.0,
+       11.6,
+       11.1,
+       11.9,
+       11.0,
+       11.2,
+       11.7,
+       10.5,
+       10.9,
+       11.4,
+       10.6,
+       10.9,
+       10.5,
+       9.9,
+       10.7,
+       10.2,
+       11.3
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İstihdam oranı, Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Toplam",
+      "data": [
+       49.4,
+       49.5,
+       49.5,
+       49.4,
+       48.9,
+       49.6,
+       48.9,
+       48.9,
+       49.0,
+       48.9,
+       49.0,
+       48.9,
+       49.0,
+       48.8,
+       48.9,
+       48.1,
+       48.4,
+       48.8,
+       48.2,
+       48.6,
+       48.9,
+       48.3,
+       48.4,
+       48.3
+      ]
+     },
+     {
+      "label": "Erkek",
+      "data": [
+       66.8,
+       67.2,
+       66.7,
+       66.6,
+       66.1,
+       67.2,
+       65.9,
+       66.3,
+       66.4,
+       65.9,
+       66.4,
+       66.4,
+       66.2,
+       66.5,
+       66.5,
+       65.3,
+       65.9,
+       66.1,
+       65.3,
+       66.2,
+       66.2,
+       65.5,
+       65.8,
+       65.8
+      ]
+     },
+     {
+      "label": "Kadın",
+      "data": [
+       32.5,
+       32.2,
+       32.6,
+       32.6,
+       32.0,
+       32.4,
+       32.3,
+       31.8,
+       32.1,
+       32.2,
+       31.9,
+       31.8,
+       32.0,
+       31.5,
+       31.8,
+       31.3,
+       31.3,
+       31.8,
+       31.4,
+       31.5,
+       32.0,
+       31.5,
+       31.4,
+       31.2
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Mevsim etkisinden arındırılmış işsizlik oranı Eylül 2026'da %8,4 oldu",
+   "ozet": "Mevsim etkisinden arındırılmış işsizlik oranı 2026 yılı Eylül ayında bir önceki aya göre 0,5 puan artarak %8,4 seviyesinde gerçekleşti; oran bir önceki bültende %7,8 olarak açıklanmıştı. İşsiz sayısı bir önceki aya göre 198 bin kişi artışla 2 milyon 967 bin kişi oldu. İstihdam oranı 0,1 puan azalarak %48,3'e gerilerken, işgücüne katılma oranı 0,1 puan artışla %52,7 olarak kaydedildi.",
+   "one_cikanlar": [
+    "İşsizlik oranı 0,5 puan artarak %8,4 oldu (Ağustos bülteninde %7,8).",
+    "İstihdam oranı 0,1 puan azalarak %48,3 seviyesine geriledi.",
+    "Genç nüfusta (15-24 yaş) işsizlik oranı 1,6 puan artışla %14,8'e yükseldi.",
+    "Zamana bağlı eksik istihdam, potansiyel işgücü ve işsizlerden oluşan atıl işgücü oranı %31,2 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İşsizlik Oranı",
+     "deger": "%8,4",
+     "degisim": "0,5 puan artış"
+    },
+    {
+     "etiket": "İşsiz Sayısı",
+     "deger": "2 milyon 967 bin",
+     "degisim": "198 bin kişi artış"
+    },
+    {
+     "etiket": "İstihdam Oranı",
+     "deger": "%48,3",
+     "degisim": "0,1 puan azalış"
+    },
+    {
+     "etiket": "İşgücüne Katılma Oranı",
+     "deger": "%52,7",
+     "degisim": "0,1 puan artış"
+    },
+    {
+     "etiket": "Genç Nüfusta İşsizlik Oranı",
+     "deger": "%14,8",
+     "degisim": "1,6 puan artış"
+    },
+    {
+     "etiket": "Atıl İşgücü Oranı",
+     "deger": "%31,2",
+     "degisim": "0,2 puan artış"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-27T07:02:13+00:00"
+ },
+ {
   "id": 58159,
   "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
   "period": "Ekim 2026",
