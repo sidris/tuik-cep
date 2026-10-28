@@ -1,5 +1,177 @@
 [
  {
+  "id": 58240,
+  "title": "Dış Ticaret İstatistikleri",
+  "period": "Eylül 2026",
+  "date": "2026-10-28T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58240",
+  "headline": "",
+  "next_release": null,
+  "charts": [],
+  "ai": {
+   "baslik": "Eylül 2026'da ihracat %15,3 artarak 25 milyar 967 milyon dolar oldu, dış ticaret açığı %25,8 azaldı",
+   "ozet": "Genel ticaret sistemine göre ihracat 2026 yılı Eylül ayında bir önceki yılın aynı ayına göre %15,3 artarak 25 milyar 967 milyon dolar, ithalat %5,6 artarak 31 milyar 130 milyon dolar oldu. Dış ticaret açığı Eylül ayında %25,8 azalarak 5 milyar 163 milyon dolara geriledi. İhracatın ithalatı karşılama oranı ise %76,4'ten %83,4'e yükseldi.",
+   "one_cikanlar": [
+    "İhracat Eylül ayında %15,3 artışla 25 milyar 967 milyon dolara ulaştı.",
+    "Dış ticaret açığı bir önceki yılın aynı ayına göre %25,8 gerileyerek 5 milyar 163 milyon dolar oldu.",
+    "Enerji ve parasal olmayan altın hariç dış ticaret açığı Eylül ayında 541 milyon dolar olarak gerçekleşti.",
+    "Eylül ayında en fazla ihracat yapılan ülke Almanya (2 milyar 46 milyon dolar), ithalatta ilk sırayı alan ülke Çin (5 milyar 264 milyon dolar) oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İhracat (Eylül)",
+     "deger": "25 milyar 967 milyon dolar",
+     "degisim": "%15,3"
+    },
+    {
+     "etiket": "İthalat (Eylül)",
+     "deger": "31 milyar 130 milyon dolar",
+     "degisim": "%5,6"
+    },
+    {
+     "etiket": "Dış Ticaret Açığı (Eylül)",
+     "deger": "5 milyar 163 milyon dolar",
+     "degisim": "-%25,8"
+    },
+    {
+     "etiket": "İhracatın İthalatı Karşılama Oranı",
+     "deger": "%83,4",
+     "degisim": ""
+    },
+    {
+     "etiket": "Ocak-Eylül İhracatı",
+     "deger": "210 milyar 952 milyon dolar",
+     "degisim": "%5,2"
+    },
+    {
+     "etiket": "Ocak-Eylül İthalatı",
+     "deger": "281 milyar 919 milyon dolar",
+     "degisim": "%5,3"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-28T07:01:08+00:00"
+ },
+ {
+  "id": 58103,
+  "title": "Hizmet Üretici Fiyat Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-10-28T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58103",
+  "headline": "Hizmet Üretici Fiyat Endeksi (H-ÜFE) yıllık %33,23 arttı, aylık %0,17 arttı",
+  "next_release": "30 Kasım 2026",
+  "charts": [
+   {
+    "title": "H-ÜFE yıllık değişim oranı(%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "H-ÜFE yıllık değişim oranı(%)",
+      "data": [
+       55.34,
+       53.44,
+       49.07,
+       40.44,
+       39.81,
+       37.94,
+       37.15,
+       38.16,
+       37.4,
+       36.35,
+       36.16,
+       34.91,
+       34.85,
+       34.93,
+       35.11,
+       34.07,
+       33.58,
+       35.94,
+       34.62,
+       38.37,
+       31.84,
+       32.77,
+       33.29,
+       33.23
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "H-ÜFE Eylül 2026'da yıllık %33,23, aylık %0,17 arttı",
+   "ozet": "Hizmet Üretici Fiyat Endeksi (H-ÜFE), 2026 yılı Eylül ayında bir önceki aya göre %0,17, bir önceki yılın aynı ayına göre %33,23 artış gösterdi. Yıllık artış oranı Ağustos ayındaki %33,29 seviyesinden %33,23'e gerilerken, aylık bazda artış hızı yavaşladı. Yıllık bazda en yüksek artış %39,99 ile ulaştırma ve depolama hizmetlerinde gerçekleşti.",
+   "one_cikanlar": [
+    "H-ÜFE Eylül ayında yıllık %33,23, aylık %0,17 artış kaydetti.",
+    "On iki aylık ortalamalara göre artış %34,31 olarak gerçekleşti.",
+    "Aylık bazda en yüksek artış %1,78 ile ulaştırma ve depolama hizmetlerinde oldu.",
+    "Aylık bazda en fazla düşüş %2,53 azalış ile idari ve destek hizmetlerde görüldü."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "H-ÜFE (Yıllık)",
+     "deger": "%33,23",
+     "degisim": "Ağustos: %33,29"
+    },
+    {
+     "etiket": "H-ÜFE (Aylık)",
+     "deger": "%0,17",
+     "degisim": "Ağustos: %2,87"
+    },
+    {
+     "etiket": "Aralık Ayına Göre",
+     "deger": "%32,88",
+     "degisim": "Ağustos: %32,66"
+    },
+    {
+     "etiket": "12 Aylık Ortalamalara Göre",
+     "deger": "%34,31",
+     "degisim": "Ağustos: %34,46"
+    },
+    {
+     "etiket": "Ulaştırma ve Depolama (Yıllık)",
+     "deger": "%39,99",
+     "degisim": "Ağustos: %40,07"
+    },
+    {
+     "etiket": "Gayrimenkul Hizmetleri (Yıllık)",
+     "deger": "%21,93",
+     "degisim": "Ağustos: %21,71"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-28T07:00:51+00:00"
+ },
+ {
   "id": 57988,
   "title": "İşgücü İstatistikleri",
   "period": "Eylül 2026",
