@@ -1,10 +1,5 @@
 [
  {
-  "title": "Ekonomik Güven Endeksi",
-  "date": "2026-10-30",
-  "source_id": 58124
- },
- {
   "title": "Tüketici Fiyat Endeksi",
   "date": "2026-11-03",
   "source_id": 58298
@@ -83,6 +78,11 @@
   "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
   "date": "2026-11-24",
   "source_id": 58159
+ },
+ {
+  "title": "Ekonomik Güven Endeksi",
+  "date": "2026-11-27",
+  "source_id": 58125
  },
  {
   "title": "Hizmet Üretici Fiyat Endeksi",

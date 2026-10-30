@@ -1,5 +1,122 @@
 [
  {
+  "id": 58125,
+  "title": "Ekonomik Güven Endeksi",
+  "period": "Ekim 2026",
+  "date": "2026-10-30T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58125",
+  "headline": "Ekonomik güven endeksi 97,3 oldu",
+  "next_release": "27 Kasım 2026",
+  "charts": [
+   {
+    "title": "Ekonomik Güven Endeksi, Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "Ekonomik güven endeksi",
+      "data": [
+       97.13,
+       98.83,
+       99.72,
+       99.16,
+       100.76,
+       96.5,
+       96.47,
+       96.53,
+       96.13,
+       97.71,
+       97.75,
+       98.05,
+       99.34,
+       99.4,
+       99.37,
+       100.73,
+       97.91,
+       96.42,
+       97.15,
+       98.91,
+       99.76,
+       100.57,
+       101.29,
+       97.33
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Ekonomik güven endeksi Ekim ayında %3,9 azalarak 97,3 değerini aldı",
+   "ozet": "Ekonomik güven endeksi Eylül ayında 101,3 iken, Ekim ayında %3,9 oranında azalarak 97,3 değerine geriledi. Bir önceki aya göre tüketici güven endeksi %7,7, reel kesim güven endeksi %1,4 ve hizmet sektörü güven endeksi %2,4 oranında azaldı. Aynı dönemde perakende ticaret sektörü güven endeksi %1,1, inşaat sektörü güven endeksi ise %0,4 oranında artış gösterdi.",
+   "one_cikanlar": [
+    "Ekonomik güven endeksi %3,9 azalarak 97,3 oldu",
+    "Tüketici güven endeksi %7,7 azalışla 84,8'e geriledi",
+    "Hizmet sektörü güven endeksi %2,4 azalarak 109,2 değerini aldı",
+    "Perakende ticaret sektörü endeksi %1,1, inşaat sektörü endeksi %0,4 arttı"
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Ekonomik güven endeksi",
+     "deger": "97,3",
+     "degisim": "-%3,9"
+    },
+    {
+     "etiket": "Tüketici güven endeksi",
+     "deger": "84,8",
+     "degisim": "-%7,7"
+    },
+    {
+     "etiket": "Reel kesim güven endeksi",
+     "deger": "101,1",
+     "degisim": "-%1,4"
+    },
+    {
+     "etiket": "Hizmet sektörü güven endeksi",
+     "deger": "109,2",
+     "degisim": "-%2,4"
+    },
+    {
+     "etiket": "Perakende ticaret sektörü güven endeksi",
+     "deger": "112,5",
+     "degisim": "%1,1"
+    },
+    {
+     "etiket": "İnşaat sektörü güven endeksi",
+     "deger": "83,3",
+     "degisim": "%0,4"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-10-30T07:00:57+00:00"
+ },
+ {
   "id": 58240,
   "title": "Dış Ticaret İstatistikleri",
   "period": "Eylül 2026",
