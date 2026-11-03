@@ -1,5 +1,239 @@
 [
  {
+  "id": 58291,
+  "title": "Tüketici Fiyat Endeksi",
+  "period": "Ekim 2026",
+  "date": "2026-11-03T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58291",
+  "headline": "Tüketici fiyat endeksi (TÜFE) yıllık %29,77 arttı, aylık %2,58 arttı",
+  "next_release": "03 Aralık 2026",
+  "charts": [
+   {
+    "title": "TÜFE yıllık değişim oranları (%), Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "TÜFE yıllık değişim oranları (%)",
+      "data": [
+       47.09,
+       44.38,
+       42.12,
+       39.05,
+       38.1,
+       37.86,
+       35.41,
+       35.05,
+       33.52,
+       32.95,
+       33.29,
+       32.87,
+       31.07,
+       30.89,
+       30.65,
+       31.53,
+       30.87,
+       32.37,
+       32.61,
+       32.11,
+       31.75,
+       31.51,
+       29.73,
+       29.77
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "TÜFE Ekim 2026'da yıllık %29,77, aylık %2,58 arttı",
+   "ozet": "Tüketici Fiyat Endeksi (TÜFE) 2026 yılı Ekim ayında bir önceki aya göre %2,58, bir önceki yılın aynı ayına göre %29,77 artış gösterdi. Yıllık enflasyon bir önceki ayki %29,73 seviyesinden hafif yükselirken, on iki aylık ortalamalara göre artış %31,23 olarak gerçekleşti. Özel kapsamlı TÜFE göstergesi (B) ise yıllık bazda %28,46 arttı.",
+   "one_cikanlar": [
+    "Aylık enflasyon Eylül ayındaki %1,84 seviyesinden %2,58'e yükseldi.",
+    "En yüksek ağırlıklı gruplardan konutta yıllık %40,24, ulaştırmada %36,39 artış kaydedildi.",
+    "Gıda ve alkolsüz içecekler grubunda fiyatlar aylık %3,50, yıllık %27,73 arttı.",
+    "Özel kapsamlı göstergelerden B endeksi yıllık %28,46, C endeksi yıllık %28,28 arttı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "TÜFE (Yıllık)",
+     "deger": "%29,77",
+     "degisim": "Eylül 2026: %29,73"
+    },
+    {
+     "etiket": "TÜFE (Aylık)",
+     "deger": "%2,58",
+     "degisim": "Eylül 2026: %1,84"
+    },
+    {
+     "etiket": "On İki Aylık Ortalamalara Göre TÜFE",
+     "deger": "%31,23",
+     "degisim": "Eylül 2026: %31,49"
+    },
+    {
+     "etiket": "Gıda ve Alkolsüz İçecekler (Yıllık)",
+     "deger": "%27,73",
+     "degisim": "Eylül 2026: %27,62"
+    },
+    {
+     "etiket": "Konut (Yıllık)",
+     "deger": "%40,24",
+     "degisim": "Eylül 2026: %39,99"
+    },
+    {
+     "etiket": "B Göstergesi (Yıllık)",
+     "deger": "%28,46",
+     "degisim": ""
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-03T07:00:48+00:00"
+ },
+ {
+  "id": 58035,
+  "title": "Yurt İçi Üretici Fiyat Endeksi",
+  "period": "Ekim 2026",
+  "date": "2026-11-03T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58035",
+  "headline": "Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) yıllık %27,41 arttı, aylık %1,65 arttı",
+  "next_release": "03 Aralık 2026",
+  "charts": [
+   {
+    "title": "Yİ-ÜFE yıllık değişim oranı(%), Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "Yİ-ÜFE yıllık değişim oranı(%)",
+      "data": [
+       29.47,
+       28.52,
+       27.2,
+       25.21,
+       23.5,
+       22.5,
+       23.13,
+       24.45,
+       24.19,
+       25.16,
+       26.59,
+       27.0,
+       27.23,
+       27.67,
+       27.17,
+       27.56,
+       28.08,
+       28.59,
+       28.93,
+       28.09,
+       27.83,
+       27.95,
+       27.38,
+       27.41
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Yurt İçi Üretici Fiyat Endeksi Ekim 2026'da yıllık %27,41, aylık %1,65 arttı",
+   "ozet": "Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) 2026 yılı Ekim ayında bir önceki aya göre %1,65, bir önceki yılın aynı ayına göre ise %27,41 artış gösterdi. Eylül 2026 bültenine kıyasla yıllık artış oranı %27,38'den %27,41'e yükselirken, aylık artış oranı %2,07'den %1,65'e geriledi. On iki aylık ortalamalara göre ise endeks %27,83 oranında artış kaydetti.",
+   "one_cikanlar": [
+    "Yİ-ÜFE aylık %1,65, yıllık %27,41 arttı.",
+    "Sanayi sektörlerinden madencilik ve taş ocakçılığı yıllık %35,12 arttı.",
+    "Elektrik, gaz üretimi ve dağıtımında aylık %0,80 azalış gerçekleşti.",
+    "Ana sanayi gruplarında en yüksek yıllık artış %33,42 ile enerjide görüldü."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Yİ-ÜFE Yıllık Değişim",
+     "deger": "%27,41",
+     "degisim": "Artış"
+    },
+    {
+     "etiket": "Yİ-ÜFE Aylık Değişim",
+     "deger": "%1,65",
+     "degisim": "Artış"
+    },
+    {
+     "etiket": "On İki Aylık Ortalama",
+     "deger": "%27,83",
+     "degisim": "Artış"
+    },
+    {
+     "etiket": "Yılın Aralık Ayına Göre",
+     "deger": "%25,41",
+     "degisim": "Artış"
+    },
+    {
+     "etiket": "İmalat Yıllık Değişim",
+     "deger": "%29,04",
+     "degisim": "Artış"
+    },
+    {
+     "etiket": "Enerji Yıllık Değişim",
+     "deger": "%33,42",
+     "degisim": "Artış"
+    }
+   ],
+   "model": "gemini-3.5-flash-lite",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-03T07:01:57+00:00"
+ },
+ {
   "id": 58125,
   "title": "Ekonomik Güven Endeksi",
   "period": "Ekim 2026",

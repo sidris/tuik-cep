@@ -1,15 +1,5 @@
 [
  {
-  "title": "Tüketici Fiyat Endeksi",
-  "date": "2026-11-03",
-  "source_id": 58298
- },
- {
-  "title": "Yurt İçi Üretici Fiyat Endeksi",
-  "date": "2026-11-03",
-  "source_id": 58034
- },
- {
   "title": "Sanayi Üretim Endeksi",
   "date": "2026-11-10",
   "source_id": 58196
@@ -93,5 +83,15 @@
   "title": "İşgücü İstatistikleri",
   "date": "2026-11-30",
   "source_id": 57988
+ },
+ {
+  "title": "Tüketici Fiyat Endeksi",
+  "date": "2026-12-03",
+  "source_id": 58291
+ },
+ {
+  "title": "Yurt İçi Üretici Fiyat Endeksi",
+  "date": "2026-12-03",
+  "source_id": 58035
  }
 ]
