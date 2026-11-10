@@ -1,15 +1,5 @@
 [
  {
-  "title": "Sanayi Üretim Endeksi",
-  "date": "2026-11-10",
-  "source_id": 58196
- },
- {
-  "title": "İnşaat Maliyet Endeksi",
-  "date": "2026-11-10",
-  "source_id": 58205
- },
- {
   "title": "Ciro Endeksleri",
   "date": "2026-11-11",
   "source_id": 58279
@@ -93,5 +83,15 @@
   "title": "Yurt İçi Üretici Fiyat Endeksi",
   "date": "2026-12-03",
   "source_id": 58035
+ },
+ {
+  "title": "İnşaat Maliyet Endeksi",
+  "date": "2026-12-09",
+  "source_id": 58206
+ },
+ {
+  "title": "Sanayi Üretim Endeksi",
+  "date": "2026-12-10",
+  "source_id": 58189
  }
 ]
