@@ -1,5 +1,236 @@
 [
  {
+  "id": 58247,
+  "title": "Dış Ticaret Endeksleri",
+  "period": "Eylül 2026",
+  "date": "2026-11-12T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58247",
+  "headline": "İhracat birim değer endeksi %7,0 arttı",
+  "next_release": "10 Aralık 2026",
+  "charts": [
+   {
+    "title": "İthalat birim değer ve miktar endeksleri, Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Birim değer endeksi",
+      "data": [
+       133.2,
+       133.7,
+       131.3,
+       127.8,
+       133.3,
+       132.7,
+       133.8,
+       133.1,
+       133.1,
+       132.0,
+       132.9,
+       136.0,
+       138.5,
+       136.9,
+       137.7,
+       135.8,
+       140.0,
+       141.1,
+       148.9,
+       152.0,
+       150.2,
+       148.9,
+       151.1,
+       153.3
+      ]
+     },
+     {
+      "label": "Miktar endeksi",
+      "data": [
+       124.0,
+       124.9,
+       137.8,
+       126.0,
+       120.2,
+       129.5,
+       138.1,
+       132.7,
+       121.1,
+       133.6,
+       109.8,
+       121.7,
+       127.8,
+       125.2,
+       145.7,
+       118.7,
+       120.7,
+       131.9,
+       127.9,
+       103.7,
+       132.0,
+       124.4,
+       106.7,
+       114.0
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Mevsim ve takvim etkilerinden arındırılmış dış ticaret miktar endeksleri, Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "İhracat",
+      "data": [
+       147.2,
+       150.6,
+       153.2,
+       157.5,
+       154.1,
+       161.6,
+       141.5,
+       157.4,
+       148.1,
+       151.3,
+       146.0,
+       135.0,
+       137.2,
+       141.8,
+       146.6,
+       139.1,
+       139.0,
+       132.6,
+       146.2,
+       148.1,
+       139.9,
+       143.7,
+       145.3,
+       145.5
+      ]
+     },
+     {
+      "label": "İthalat",
+      "data": [
+       124.2,
+       125.6,
+       127.3,
+       130.1,
+       127.0,
+       130.5,
+       137.6,
+       128.6,
+       128.7,
+       123.0,
+       114.8,
+       121.0,
+       128.0,
+       129.9,
+       130.4,
+       126.5,
+       127.5,
+       130.7,
+       123.5,
+       115.9,
+       125.5,
+       114.5,
+       111.7,
+       113.5
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Eylül 2026'da ihracat miktar endeksi %7,8 arttı, ithalat miktar endeksi %6,3 azaldı",
+   "ozet": "Eylül 2026'da ihracat birim değer endeksi bir önceki yılın aynı ayına göre %7,0, ithalat birim değer endeksi ise %12,7 arttı. Aynı dönemde ihracat miktar endeksi %7,8 artış gösterirken, ithalat miktar endeksi %6,3 azaldı. Dış ticaret haddi, bir önceki yılın aynı ayına göre 4,7 puan azalarak 88,0 seviyesine geriledi.",
+   "one_cikanlar": [
+    "İhracat birim değer endeksi yıllık %7,0 arttı (Ağustos: %8,5).",
+    "İhracat miktar endeksi yıllık %7,8 arttı (Ağustos: -%0,4).",
+    "İthalat miktar endeksi yıllık %6,3 azaldı (Ağustos: -%2,8).",
+    "Dış ticaret haddi 92,7'den 88,0'e indi."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İhracat Birim Değer Endeksi",
+     "deger": "134,9",
+     "degisim": "%7,0"
+    },
+    {
+     "etiket": "İhracat Miktar Endeksi",
+     "deger": "153,0",
+     "degisim": "%7,8"
+    },
+    {
+     "etiket": "İthalat Birim Değer Endeksi",
+     "deger": "153,3",
+     "degisim": "%12,7"
+    },
+    {
+     "etiket": "İthalat Miktar Endeksi",
+     "deger": "114,0",
+     "degisim": "-%6,3"
+    },
+    {
+     "etiket": "Dış Ticaret Haddi",
+     "deger": "88,0",
+     "degisim": "-4,7 puan"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-12T07:00:47+00:00"
+ },
+ {
   "id": 58280,
   "title": "Ciro Endeksleri",
   "period": "Eylül 2026",
