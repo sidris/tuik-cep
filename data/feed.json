@@ -1,5 +1,361 @@
 [
  {
+  "id": 58337,
+  "title": "Hizmet Üretim Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-11-13T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58337",
+  "headline": "Hizmet üretim endeksi yıllık %2,1 arttı",
+  "next_release": "15 Aralık 2026",
+  "charts": [
+   {
+    "title": "Hizmet üretim endeksi yıllık değişim oranları (%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Hizmet üretim endeksi yıllık değişim oranları (%)",
+      "data": [
+       -0.5,
+       1.4,
+       3.1,
+       7.1,
+       1.5,
+       1.6,
+       4.0,
+       4.3,
+       3.8,
+       2.4,
+       3.9,
+       3.0,
+       3.2,
+       4.1,
+       4.0,
+       -0.5,
+       2.3,
+       2.7,
+       2.4,
+       0.0,
+       1.8,
+       3.1,
+       2.6,
+       2.1
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Hizmet üretim endeksi aylık değişim oranı (%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Hizmet üretim endeksi aylık değişim oranı (%)",
+      "data": [
+       0.0,
+       -0.1,
+       1.1,
+       3.4,
+       -1.7,
+       0.2,
+       -0.3,
+       1.7,
+       -0.7,
+       -0.8,
+       0.9,
+       0.1,
+       -0.4,
+       0.1,
+       0.9,
+       -0.2,
+       1.1,
+       0.2,
+       -0.4,
+       -0.5,
+       0.8,
+       0.8,
+       0.3,
+       -0.3
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Hizmet üretim endeksi Eylül 2026'da yıllık %2,1 arttı, aylık %0,3 azaldı",
+   "ozet": "Hizmet üretim endeksi 2026 yılı Eylül ayında bir önceki yılın aynı ayına göre %2,1 artarken, bir önceki aya göre %0,3 azaldı. Yıllık bazda en yüksek artış %10,4 ile mesleki, bilimsel ve teknik hizmetlerde kaydedilirken, idari ve destek hizmetleri %7,3 azalış gösterdi. Bir önceki ay olan Ağustos 2026'da yıllık %2,3 ve aylık %0,2 artış gerçekleşmişti.",
+   "one_cikanlar": [
+    "Hizmet üretim endeksi yıllık %2,1 arttı (Ağustos 2026: %2,3).",
+    "Endeks aylık bazda %0,3 azaldı (Ağustos 2026: %0,2 artış).",
+    "Yıllık bazda en güçlü artış %10,4 ile mesleki, bilimsel ve teknik hizmetlerde oldu.",
+    "İdari ve destek hizmetleri yıllık %7,3, aylık ise %4,1 geriledi."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Hizmet Üretimi (Yıllık)",
+     "deger": "%2,1",
+     "degisim": "arttı"
+    },
+    {
+     "etiket": "Hizmet Üretimi (Aylık)",
+     "deger": "%0,3",
+     "degisim": "azaldı"
+    },
+    {
+     "etiket": "Mesleki, Bilimsel ve Teknik (Yıllık)",
+     "deger": "%10,4",
+     "degisim": "arttı"
+    },
+    {
+     "etiket": "İdari ve Destek Hizmetleri (Yıllık)",
+     "deger": "%7,3",
+     "degisim": "azaldı"
+    },
+    {
+     "etiket": "Bilgi ve İletişim (Yıllık)",
+     "deger": "%3,5",
+     "degisim": "arttı"
+    },
+    {
+     "etiket": "Ulaştırma ve Depolama (Yıllık)",
+     "deger": "%3,0",
+     "degisim": "arttı"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-13T07:01:06+00:00"
+ },
+ {
+  "id": 58323,
+  "title": "İnşaat Üretim Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-11-13T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58323",
+  "headline": "İnşaat üretimi yıllık %6,3 azaldı",
+  "next_release": "15 Aralık 2026",
+  "charts": [
+   {
+    "title": "İnşaat üretim endeksi yıllık değişimleri(%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "İnşaat üretim endeksi yıllık değişimleri(%)",
+      "data": [
+       3.3,
+       7.4,
+       10.9,
+       8.7,
+       6.1,
+       4.1,
+       2.4,
+       12.2,
+       16.4,
+       15.4,
+       16.2,
+       20.7,
+       19.1,
+       13.5,
+       7.5,
+       7.8,
+       5.7,
+       -1.1,
+       1.9,
+       -3.2,
+       -5.7,
+       -4.5,
+       2.3,
+       -6.3
+      ]
+     }
+    ]
+   },
+   {
+    "title": "İnşaat üretim endeksi aylık değişimleri(%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "İnşaat üretim endeksi aylık değişimleri(%)",
+      "data": [
+       -0.3,
+       3.6,
+       7.0,
+       1.2,
+       0.5,
+       -1.4,
+       -2.9,
+       4.1,
+       3.0,
+       0.7,
+       -2.1,
+       5.7,
+       -1.2,
+       -0.9,
+       1.5,
+       0.8,
+       -2.0,
+       -6.8,
+       -0.4,
+       -0.4,
+       -0.2,
+       1.5,
+       4.0,
+       -2.7
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "İnşaat üretimi Eylül 2026'da yıllık %6,3, aylık %2,7 azaldı",
+   "ozet": "İnşaat üretim endeksi 2026 yılı Eylül ayında bir önceki yılın aynı ayına göre %6,3 azaldı; Ağustos ayında yıllık değişim %2,3 artış yönündeydi. Mevsim ve takvim etkisinden arındırılmış inşaat üretimi ise Ağustos'taki %4,0'lık artışın ardından Eylül ayında aylık %2,7 azaldı. Yıllık bazda bina inşaatı %9,3 ve özel inşaat faaliyetleri %8,9 gerilerken, bina dışı yapıların inşaatı %12,7 arttı.",
+   "one_cikanlar": [
+    "İnşaat üretimi yıllık %6,3 azaldı.",
+    "Aylık bazda inşaat üretimi %2,7 azalış gösterdi.",
+    "Bina dışı yapıların inşaatı yıllık %12,7 arttı.",
+    "Bina inşaatı yıllık %9,3, özel inşaat faaliyetleri %8,9 azaldı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İnşaat üretimi (yıllık)",
+     "deger": "%6,3 azaldı",
+     "degisim": "Ağustos 2026: %2,3 arttı"
+    },
+    {
+     "etiket": "İnşaat üretimi (aylık)",
+     "deger": "%2,7 azaldı",
+     "degisim": "Ağustos 2026: %4,0 arttı"
+    },
+    {
+     "etiket": "Bina inşaatı (yıllık)",
+     "deger": "%9,3 azaldı",
+     "degisim": "Ağustos 2026: %0,9 azaldı"
+    },
+    {
+     "etiket": "Bina dışı yapılar (yıllık)",
+     "deger": "%12,7 arttı",
+     "degisim": "Ağustos 2026: %21,8 arttı"
+    },
+    {
+     "etiket": "Özel inşaat faaliyetleri (yıllık)",
+     "deger": "%8,9 azaldı",
+     "degisim": "Ağustos 2026: %0,1 arttı"
+    },
+    {
+     "etiket": "Bina inşaatı (aylık)",
+     "deger": "%2,9 azaldı",
+     "degisim": "Ağustos 2026: %4,5 arttı"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-13T07:00:50+00:00"
+ },
+ {
   "id": 58247,
   "title": "Dış Ticaret Endeksleri",
   "period": "Eylül 2026",

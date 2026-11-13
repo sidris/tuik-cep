@@ -1,15 +1,5 @@
 [
  {
-  "title": "Hizmet Üretim Endeksi",
-  "date": "2026-11-13",
-  "source_id": 58331
- },
- {
-  "title": "İnşaat Üretim Endeksi",
-  "date": "2026-11-13",
-  "source_id": 58316
- },
- {
   "title": "Ücretli Çalışan İstatistikleri",
   "date": "2026-11-16",
   "source_id": 57956
@@ -93,5 +83,15 @@
   "title": "Ticaret Satış Hacim Endeksi",
   "date": "2026-12-11",
   "source_id": 58267
+ },
+ {
+  "title": "Hizmet Üretim Endeksi",
+  "date": "2026-12-15",
+  "source_id": 58337
+ },
+ {
+  "title": "İnşaat Üretim Endeksi",
+  "date": "2026-12-15",
+  "source_id": 58323
  }
 ]
