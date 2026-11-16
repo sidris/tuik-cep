@@ -1,10 +1,5 @@
 [
  {
-  "title": "Ücretli Çalışan İstatistikleri",
-  "date": "2026-11-16",
-  "source_id": 57956
- },
- {
   "title": "Konut ve İş Yeri Satış İstatistikleri",
   "date": "2026-11-17",
   "source_id": 58347
@@ -88,6 +83,11 @@
   "title": "Hizmet Üretim Endeksi",
   "date": "2026-12-15",
   "source_id": 58337
+ },
+ {
+  "title": "Ücretli Çalışan İstatistikleri",
+  "date": "2026-12-15",
+  "source_id": 57962
  },
  {
   "title": "İnşaat Üretim Endeksi",
