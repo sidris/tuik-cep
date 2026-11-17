@@ -1,5 +1,358 @@
 [
  {
+  "id": 58348,
+  "title": "Konut ve İş Yeri Satış İstatistikleri",
+  "period": "Ekim 2026",
+  "date": "2026-11-17T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58348",
+  "headline": "İlk el konut satışları 50 bin 105, ikinci el konut satışları 80 bin 967 olarak gerçekleşti",
+  "next_release": "17 Aralık 2026",
+  "charts": [
+   {
+    "title": "Satış durumuna göre konut satışı, Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "İlk el satışlar",
+      "data": [
+       52168.0,
+       81219.0,
+       34783.0,
+       35695.0,
+       35281.0,
+       36775.0,
+       41860.0,
+       35267.0,
+       46514.0,
+       46459.0,
+       49608.0,
+       57675.0,
+       49174.0,
+       101721.0,
+       34069.0,
+       37785.0,
+       35725.0,
+       40306.0,
+       30196.0,
+       43406.0,
+       42529.0,
+       44378.0,
+       51519.0,
+       50105.0
+      ]
+     },
+     {
+      "label": "İkinci el satışlar",
+      "data": [
+       107637.0,
+       140893.0,
+       82242.0,
+       81891.0,
+       80507.0,
+       86794.0,
+       93804.0,
+       76929.0,
+       102425.0,
+       102981.0,
+       107310.0,
+       113280.0,
+       97815.0,
+       163502.0,
+       77411.0,
+       86764.0,
+       77642.0,
+       86502.0,
+       63137.0,
+       86573.0,
+       81074.0,
+       83032.0,
+       90871.0,
+       80967.0
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Satış şekline göre konut satışı, Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "İpotekli satışlar",
+      "data": [
+       22789.0,
+       24480.0,
+       17516.0,
+       17593.0,
+       19109.0,
+       18340.0,
+       20325.0,
+       15101.0,
+       19315.0,
+       20646.0,
+       22264.0,
+       24684.0,
+       22523.0,
+       30604.0,
+       20263.0,
+       25035.0,
+       25978.0,
+       25771.0,
+       19754.0,
+       25993.0,
+       23888.0,
+       22131.0,
+       23397.0,
+       23286.0
+      ]
+     },
+     {
+      "label": "Diğer satışlar",
+      "data": [
+       137016.0,
+       197632.0,
+       99509.0,
+       99993.0,
+       96679.0,
+       105229.0,
+       115339.0,
+       97095.0,
+       129624.0,
+       128794.0,
+       134654.0,
+       146271.0,
+       124466.0,
+       234619.0,
+       91217.0,
+       99514.0,
+       87389.0,
+       101037.0,
+       73579.0,
+       103986.0,
+       99715.0,
+       105279.0,
+       118993.0,
+       107786.0
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Türkiye genelinde konut satışları Ekim ayında %23,3 azalarak 131 bin 72 oldu",
+   "ozet": "Türkiye genelinde konut satışları Ekim 2026'da bir önceki yılın aynı ayına göre %23,3 azalarak 131 bin 72 seviyesinde gerçekleşti. Bu dönemde ilk el konut satışları %13,1 azalışla 50 bin 105, ikinci el konut satışları ise %28,5 düşüşle 80 bin 967 oldu. Yabancılara yapılan konut satışları %0,9 artarak 2 bin 259'a ulaşırken, toplam iş yeri satışları %12,6 azalarak 16 bin 489 olarak kayıtlara geçti.",
+   "one_cikanlar": [
+    "Toplam konut satışları Ekim ayında yıllık bazda %23,3 azaldı.",
+    "İkinci el konut satışları %28,5, ilk el konut satışları %13,1 düşüş kaydetti.",
+    "İpotekli konut satışları %5,7 azalarak 23 bin 286 adede geriledi.",
+    "Toplam iş yeri satışları bir önceki yılın aynı ayına göre %12,6 azaldı."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Toplam konut satışı",
+     "deger": "131 072",
+     "degisim": "-%23,3"
+    },
+    {
+     "etiket": "İlk el konut satışı",
+     "deger": "50 105",
+     "degisim": "-%13,1"
+    },
+    {
+     "etiket": "İkinci el konut satışı",
+     "deger": "80 967",
+     "degisim": "-%28,5"
+    },
+    {
+     "etiket": "İpotekli konut satışı",
+     "deger": "23 286",
+     "degisim": "-%5,7"
+    },
+    {
+     "etiket": "Yabancılara konut satışı",
+     "deger": "2 259",
+     "degisim": "%0,9"
+    },
+    {
+     "etiket": "Toplam iş yeri satışı",
+     "deger": "16 489",
+     "degisim": "-%12,6"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-17T07:00:56+00:00"
+ },
+ {
+  "id": 57973,
+  "title": "Tarım Ürünleri Üretici Fiyat Endeksi",
+  "period": "Ekim 2026",
+  "date": "2026-11-17T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/57973",
+  "headline": "Tarım ürünleri üretici fiyat endeksi (Tarım-ÜFE) yıllık %9,69 arttı, aylık %1,02 arttı",
+  "next_release": "16 Aralık 2026",
+  "charts": [
+   {
+    "title": "Tarım-ÜFE yıllık değişim oranı (%), Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "Tarım-ÜFE yıllık değişim oranı (%)",
+      "data": [
+       46.91,
+       37.01,
+       35.54,
+       29.89,
+       31.54,
+       27.5,
+       28.96,
+       50.31,
+       44.32,
+       41.55,
+       46.83,
+       45.4,
+       31.45,
+       36.01,
+       43.58,
+       40.1,
+       36.09,
+       42.53,
+       43.08,
+       9.55,
+       18.81,
+       21.91,
+       12.93,
+       9.69
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Tarım-ÜFE Ekim 2026'da yıllık %9,69, aylık %1,02 arttı",
+   "ozet": "Tarım Ürünleri Üretici Fiyat Endeksi (Tarım-ÜFE), 2026 yılı Ekim ayında bir önceki aya göre %1,02, bir önceki yılın aynı ayına göre %9,69 arttı. Eylül ayında %12,93 olan yıllık artış hızı Ekim ayında %9,69'a geriledi. On iki aylık ortalamalara göre artış ise %27,64 olarak gerçekleşti.",
+   "one_cikanlar": [
+    "Tarım-ÜFE aylık %1,02, yıllık %9,69 arttı.",
+    "Eylül ayında %12,93 olan yıllık artış oranı Ekim'de %9,69'a geriledi.",
+    "Tek yıllık bitkisel ürünler aylık %7,94 artarken, çok yıllık bitkisel ürünler %7,13 azaldı.",
+    "Turunçgiller hem yıllık %57,83 azalış hem de aylık %27,67 azalışla en yüksek değişimin gerçekleştiği alt grup oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Tarım-ÜFE (Aylık)",
+     "deger": "%1,02",
+     "degisim": "Eylül'de %-1,99"
+    },
+    {
+     "etiket": "Tarım-ÜFE (Yıllık)",
+     "deger": "%9,69",
+     "degisim": "Eylül'de %12,93"
+    },
+    {
+     "etiket": "On İki Aylık Ortalama",
+     "deger": "%27,64",
+     "degisim": "Eylül'de %30,64"
+    },
+    {
+     "etiket": "Tek Yıllık Bitkisel Ürünler (Aylık)",
+     "deger": "%7,94",
+     "degisim": ""
+    },
+    {
+     "etiket": "Çok Yıllık Bitkisel Ürünler (Aylık)",
+     "deger": "%-7,13",
+     "degisim": ""
+    },
+    {
+     "etiket": "Canlı Hayvanlar ve Hayvansal Ürünler (Aylık)",
+     "deger": "%0,91",
+     "degisim": ""
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-17T07:00:41+00:00"
+ },
+ {
   "id": 57962,
   "title": "Ücretli Çalışan İstatistikleri",
   "period": "Eylül 2026",
