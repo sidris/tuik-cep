@@ -1,5 +1,60 @@
 [
  {
+  "id": 57994,
+  "title": "Dönemsel İşgücü İstatistikleri",
+  "period": "III. Çeyrek: Temmuz-Eylül 2026",
+  "date": "2026-11-18T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/57994",
+  "headline": "Mevsim etkisinden arındırılmış istihdam oranı %48,3 oldu",
+  "next_release": null,
+  "charts": [],
+  "ai": {
+   "baslik": "İşsizlik oranı 2026 yılı III. çeyreğinde %8,1 oldu",
+   "ozet": "Mevsim etkisinden arındırılmış işsizlik oranı 2026 yılı III. çeyreğinde bir önceki çeyreğe göre 0,1 puan artarak %8,1 seviyesinde gerçekleşti. İstihdam edilenlerin sayısı 62 bin kişi azalarak 32 milyon 434 bin kişiye gerilerken istihdam oranı %48,3 oldu. Atıl işgücü oranı ise 1,0 puanlık artış ile %30,9 olarak tahmin edildi.",
+   "one_cikanlar": [
+    "Mevsim etkisinden arındırılmış işsizlik oranı %8,1 oldu.",
+    "İstihdam oranı 0,3 puanlık azalış ile %48,3 seviyesine geriledi.",
+    "15-24 yaş grubundaki genç nüfusta işsizlik oranı %14,1 olarak gerçekleşti.",
+    "Mevsim ve takvim etkilerinden arındırılmış atıl işgücü oranı %30,9 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "İşsizlik Oranı",
+     "deger": "%8,1",
+     "degisim": "0,1 puanlık artış"
+    },
+    {
+     "etiket": "İşsiz Sayısı",
+     "deger": "2 milyon 870 bin",
+     "degisim": "46 bin kişi artış"
+    },
+    {
+     "etiket": "İstihdam Oranı",
+     "deger": "%48,3",
+     "degisim": "0,3 puanlık azalış"
+    },
+    {
+     "etiket": "İşgücüne Katılma Oranı",
+     "deger": "%52,6",
+     "degisim": "0,2 puanlık azalış"
+    },
+    {
+     "etiket": "Genç İşsizlik Oranı",
+     "deger": "%14,1",
+     "degisim": "0,1 puanlık artış"
+    },
+    {
+     "etiket": "Atıl İşgücü Oranı",
+     "deger": "%30,9",
+     "degisim": "1,0 puanlık artış"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-18T07:00:59+00:00"
+ },
+ {
   "id": 58348,
   "title": "Konut ve İş Yeri Satış İstatistikleri",
   "period": "Ekim 2026",
