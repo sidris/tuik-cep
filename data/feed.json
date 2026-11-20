@@ -1,5 +1,351 @@
 [
  {
+  "id": 58179,
+  "title": "Tüketici Güven Endeksi",
+  "period": "Kasım 2026",
+  "date": "2026-11-20T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58179",
+  "headline": "Tüketici güven endeksi 86,8 oldu",
+  "next_release": "21 Aralık 2026",
+  "charts": [
+   {
+    "title": "Tüketici güven endeksi, Kasım 2026",
+    "type": "line",
+    "labels": [
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10",
+     "2026-11"
+    ],
+    "series": [
+     {
+      "label": "Tüketici Güven Endeksi",
+      "data": [
+       81.27,
+       80.96,
+       82.07,
+       85.86,
+       83.86,
+       84.79,
+       85.06,
+       83.52,
+       84.25,
+       83.87,
+       83.63,
+       84.98,
+       83.49,
+       83.72,
+       85.69,
+       85.04,
+       85.5,
+       85.76,
+       87.93,
+       89.83,
+       90.77,
+       91.92,
+       84.82,
+       86.81
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Tüketici güven endeksi Kasım 2026'da %2,4 artışla 86,8 oldu",
+   "ozet": "TÜİK ve TCMB işbirliği ile yürütülen tüketici eğilim anketi sonuçlarına göre, tüketici güven endeksi Ekim ayındaki 84,8 seviyesinden Kasım ayında %2,4 oranında artarak 86,8'e yükseldi. Tüm alt endekslerde aylık bazda artış kaydedilirken, en yüksek artış %3,4 ile gelecek 12 aylık dönemde hanenin maddi durum beklentisinde gerçekleşti. Gelecek 12 aylık dönemde dayanıklı tüketim mallarına harcama yapma düşüncesi endeksi 105,3 ile 100 eşik değerinin üzerindeki seyrini sürdürdü.",
+   "one_cikanlar": [
+    "Tüketici güven endeksi Kasım ayında %2,4 artarak 86,8 oldu.",
+    "Gelecek 12 aylık dönemde hanenin maddi durum beklentisi %3,4 artışla 89,4'e çıktı.",
+    "Gelecek 12 aylık dönemde genel ekonomik durum beklentisi %2,9 artarak 84,1 değerini aldı.",
+    "Dayanıklı tüketim mallarına harcama yapma düşüncesi %2,5 artışla 105,3 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Tüketici güven endeksi",
+     "deger": "86,8",
+     "degisim": "%2,4"
+    },
+    {
+     "etiket": "Mevcut dönemde hanenin maddi durumu",
+     "deger": "68,4",
+     "degisim": "%0,04"
+    },
+    {
+     "etiket": "Hanenin maddi durum beklentisi",
+     "deger": "89,4",
+     "degisim": "%3,4"
+    },
+    {
+     "etiket": "Genel ekonomik durum beklentisi",
+     "deger": "84,1",
+     "degisim": "%2,9"
+    },
+    {
+     "etiket": "Dayanıklı tüketim mallarına harcama",
+     "deger": "105,3",
+     "degisim": "%2,5"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-20T07:01:12+00:00"
+ },
+ {
+  "id": 58111,
+  "title": "Yurt Dışı Üretici Fiyat Endeksi",
+  "period": "Ekim 2026",
+  "date": "2026-11-20T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58111",
+  "headline": "Yurt Dışı Üretici Fiyat Endeksi (YD-ÜFE) yıllık %33,45 arttı, aylık %0,75 arttı",
+  "next_release": "21 Aralık 2026",
+  "charts": [
+   {
+    "title": "YD-ÜFE yıllık değişim oranı (%), Ekim 2026",
+    "type": "line",
+    "labels": [
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10"
+    ],
+    "series": [
+     {
+      "label": "YD-ÜFE yıllık değişim oranı(%)",
+      "data": [
+       25.19,
+       23.5,
+       20.47,
+       20.08,
+       19.34,
+       22.92,
+       25.34,
+       28.38,
+       30.06,
+       28.01,
+       27.71,
+       28.75,
+       31.19,
+       32.46,
+       35.12,
+       35.55,
+       35.4,
+       35.07,
+       34.16,
+       30.33,
+       29.67,
+       32.6,
+       33.64,
+       33.45
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "YD-ÜFE Ekim 2026'da yıllık %33,45, aylık %0,75 arttı",
+   "ozet": "Yurt Dışı Üretici Fiyat Endeksi (YD-ÜFE) 2026 yılı Ekim ayında bir önceki aya göre %0,75, bir önceki yılın aynı ayına göre %33,45 artış gösterdi. Yıllık artış hızı bir önceki ay kaydedilen %33,64 seviyesinden %33,45'e, aylık artış ise %2,82'den %0,75'e geriledi. Yıllık bazda sanayi grupları içinde en belirgin yükseliş %144,50 ile enerjide gerçekleşti.",
+   "one_cikanlar": [
+    "YD-ÜFE yıllık %33,45, aylık %0,75 artış kaydetti.",
+    "İmalat ürünlerinde yıllık %33,36, aylık %0,76 artış oldu.",
+    "Yıllık bazda en yüksek artış %144,50 ile enerji grubunda gerçekleşti.",
+    "Aylık bazda dayanıklı tüketim mallarında %1,57 azalış görüldü."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "YD-ÜFE Yıllık",
+     "deger": "%33,45",
+     "degisim": "Eylül: %33,64"
+    },
+    {
+     "etiket": "YD-ÜFE Aylık",
+     "deger": "%0,75",
+     "degisim": "Eylül: %2,82"
+    },
+    {
+     "etiket": "Aralık Ayına Göre",
+     "deger": "%29,66",
+     "degisim": "Eylül: %28,69"
+    },
+    {
+     "etiket": "On İki Aylık Ortalama",
+     "deger": "%33,17",
+     "degisim": "Eylül: %32,82"
+    },
+    {
+     "etiket": "İmalat (Yıllık)",
+     "deger": "%33,36",
+     "degisim": "Eylül: %33,45"
+    },
+    {
+     "etiket": "Enerji (Yıllık)",
+     "deger": "%144,50",
+     "degisim": "Eylül: %130,31"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-20T07:01:05+00:00"
+ },
+ {
+  "id": 58086,
+  "title": "Tarımsal Girdi Fiyat Endeksi",
+  "period": "Eylül 2026",
+  "date": "2026-11-20T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58086",
+  "headline": "Tarımsal girdi fiyat endeksi (Tarım-GFE) yıllık %32,36 arttı, aylık %3,78 arttı",
+  "next_release": "22 Aralık 2026",
+  "charts": [
+   {
+    "title": "Tarım-GFE yıllık değişim oranı (%), Eylül 2026",
+    "type": "line",
+    "labels": [
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ],
+    "series": [
+     {
+      "label": "Tarım-GFE yıllık değişim oranı (%)",
+      "data": [
+       32.59,
+       32.92,
+       32.49,
+       30.49,
+       28.92,
+       29.73,
+       30.12,
+       31.8,
+       33.88,
+       34.22,
+       34.09,
+       34.6,
+       33.66,
+       34.24,
+       33.15,
+       30.59,
+       31.55,
+       34.26,
+       38.97,
+       36.65,
+       32.06,
+       27.62,
+       30.28,
+       32.36
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Tarım-GFE Eylül 2026'da yıllık %32,36, aylık %3,78 arttı",
+   "ozet": "Tarımsal girdi fiyat endeksi (Tarım-GFE), 2026 yılı Eylül ayında bir önceki aya göre %3,78, bir önceki yılın aynı ayına göre %32,36 arttı. Yıllık artış oranı Ağustos ayındaki %30,28 seviyesinden yükseliş kaydetti. Hem yıllık hem de aylık bazda en yüksek artış gösteren alt grup enerji ve yağlayıcılar oldu.",
+   "one_cikanlar": [
+    "Tarım-GFE yıllık %32,36, aylık %3,78 artış kaydetti.",
+    "Ağustos ayında %30,28 olan yıllık artış Eylül'de %32,36'ya yükseldi.",
+    "Yıllık bazda en yüksek artış %53,38 ile enerji ve yağlayıcılarda gerçekleşti.",
+    "Aylık bazda en yüksek artış %9,56 ile yine enerji ve yağlayıcılarda görüldü."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Tarım-GFE (Yıllık)",
+     "deger": "%32,36",
+     "degisim": "Ağustos: %30,28"
+    },
+    {
+     "etiket": "Tarım-GFE (Aylık)",
+     "deger": "%3,78",
+     "degisim": "Ağustos: %3,41"
+    },
+    {
+     "etiket": "Tarımda kullanılan mal ve hizmetler (Yıllık)",
+     "deger": "%33,90",
+     "degisim": "Ağustos: %31,63"
+    },
+    {
+     "etiket": "Tarımsal yatırıma katkı sağlayan mal ve hizmetler (Yıllık)",
+     "deger": "%22,97",
+     "degisim": "Ağustos: %22,16"
+    },
+    {
+     "etiket": "Enerji ve yağlayıcılar (Yıllık)",
+     "deger": "%53,38",
+     "degisim": "Ağustos: %43,14"
+    },
+    {
+     "etiket": "Enerji ve yağlayıcılar (Aylık)",
+     "deger": "%9,56",
+     "degisim": "Ağustos: %9,58"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-20T07:00:48+00:00"
+ },
+ {
   "id": 57994,
   "title": "Dönemsel İşgücü İstatistikleri",
   "period": "III. Çeyrek: Temmuz-Eylül 2026",
