@@ -1,10 +1,5 @@
 [
  {
-  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
-  "date": "2026-11-24",
-  "source_id": 58159
- },
- {
   "title": "Ekonomik Güven Endeksi",
   "date": "2026-11-27",
   "source_id": 58125
@@ -93,5 +88,10 @@
   "title": "Tarımsal Girdi Fiyat Endeksi",
   "date": "2026-12-22",
   "source_id": 58086
+ },
+ {
+  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
+  "date": "2026-12-23",
+  "source_id": 58160
  }
 ]

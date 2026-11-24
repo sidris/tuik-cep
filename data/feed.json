@@ -1,5 +1,180 @@
 [
  {
+  "id": 58160,
+  "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
+  "period": "Kasım 2026",
+  "date": "2026-11-24T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58160",
+  "headline": "Güven endeksi hizmet sektöründe %0,6 arttı, perakende ticaret sektöründe %0,9 arttı, inşaat sektöründe %3,8 azaldı",
+  "next_release": "23 Aralık 2026",
+  "charts": [
+   {
+    "title": "Mevsim etkilerinden arındırılmış güven endeksleri, Kasım 2026",
+    "type": "line",
+    "labels": [
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10",
+     "2026-11"
+    ],
+    "series": [
+     {
+      "label": "Hizmet sektörü",
+      "data": [
+       113.6,
+       116.49,
+       114.23,
+       114.42,
+       109.54,
+       110.49,
+       110.89,
+       109.96,
+       111.13,
+       111.04,
+       110.72,
+       111.82,
+       112.3,
+       113.78,
+       113.79,
+       113.21,
+       109.73,
+       109.03,
+       110.51,
+       112.04,
+       111.9,
+       111.94,
+       109.24,
+       109.88
+      ]
+     },
+     {
+      "label": "Perakende ticaret sektörü",
+      "data": [
+       113.02,
+       114.55,
+       116.33,
+       113.41,
+       110.59,
+       111.23,
+       108.45,
+       107.89,
+       108.8,
+       109.22,
+       113.22,
+       114.21,
+       115.42,
+       112.63,
+       115.91,
+       113.58,
+       111.56,
+       112.46,
+       112.76,
+       110.96,
+       110.11,
+       111.3,
+       112.55,
+       113.62
+      ]
+     },
+     {
+      "label": "İnşaat sektörü",
+      "data": [
+       89.44,
+       91.73,
+       89.29,
+       88.88,
+       85.12,
+       88.44,
+       86.9,
+       88.85,
+       85.25,
+       88.32,
+       83.67,
+       84.93,
+       84.47,
+       85.71,
+       83.91,
+       80.64,
+       83.55,
+       82.09,
+       82.96,
+       83.49,
+       83.13,
+       82.97,
+       83.32,
+       80.16
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Kasım 2026'da güven endeksi hizmette %0,6 ve perakendede %0,9 artarken inşaatta %3,8 azaldı",
+   "ozet": "Mevsim etkilerinden arındırılmış güven endeksi Kasım ayında bir önceki aya göre hizmet sektöründe %0,6 artarak 109,9, perakende ticaret sektöründe %0,9 artarak 113,6 değerini aldı. Aynı dönemde inşaat sektörü güven endeksi %3,8 azalarak 80,2 seviyesine geriledi. Ekim ayında hizmet endeksi 109,2, perakende ticaret endeksi 112,5 ve inşaat endeksi 83,3 düzeyindeydi.",
+   "one_cikanlar": [
+    "Hizmet sektörü güven endeksi %0,6 artışla 109,9 oldu.",
+    "Perakende ticaret sektörü güven endeksi %0,9 artarak 113,6'ya yükseldi.",
+    "İnşaat sektörü güven endeksi %3,8 düşüşle 80,2 seviyesine indi.",
+    "İnşaatta gelecek 3 aylık toplam çalışan sayısı beklentisi %4,5 azalarak 82,0 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Hizmet sektörü güven endeksi",
+     "deger": "109,9",
+     "degisim": "%0,6"
+    },
+    {
+     "etiket": "Perakende ticaret güven endeksi",
+     "deger": "113,6",
+     "degisim": "%0,9"
+    },
+    {
+     "etiket": "İnşaat sektörü güven endeksi",
+     "deger": "80,2",
+     "degisim": "-%3,8"
+    },
+    {
+     "etiket": "Hizmet talebi beklentisi (gelecek 3 ay)",
+     "deger": "116,0",
+     "degisim": "%0,9"
+    },
+    {
+     "etiket": "Perakende satış beklentisi (gelecek 3 ay)",
+     "deger": "127,9",
+     "degisim": "%3,5"
+    },
+    {
+     "etiket": "İnşaat çalışan sayısı beklentisi (gelecek 3 ay)",
+     "deger": "82,0",
+     "degisim": "-%4,5"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-24T07:00:55+00:00"
+ },
+ {
   "id": 58179,
   "title": "Tüketici Güven Endeksi",
   "period": "Kasım 2026",
