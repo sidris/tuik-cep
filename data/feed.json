@@ -1,5 +1,122 @@
 [
  {
+  "id": 58126,
+  "title": "Ekonomik Güven Endeksi",
+  "period": "Kasım 2026",
+  "date": "2026-11-27T10:00:00",
+  "url": "https://veriportali.tuik.gov.tr/tr/press/58126",
+  "headline": "Ekonomik güven endeksi 98,4 oldu",
+  "next_release": "28 Aralık 2026",
+  "charts": [
+   {
+    "title": "Ekonomik Güven Endeksi, Kasım 2026",
+    "type": "line",
+    "labels": [
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12",
+     "2026-01",
+     "2026-02",
+     "2026-03",
+     "2026-04",
+     "2026-05",
+     "2026-06",
+     "2026-07",
+     "2026-08",
+     "2026-09",
+     "2026-10",
+     "2026-11"
+    ],
+    "series": [
+     {
+      "label": "Ekonomik güven endeksi",
+      "data": [
+       98.83,
+       99.72,
+       99.16,
+       100.76,
+       96.5,
+       96.47,
+       96.53,
+       96.13,
+       97.71,
+       97.75,
+       98.05,
+       99.34,
+       99.4,
+       99.37,
+       100.73,
+       97.91,
+       96.42,
+       97.15,
+       98.91,
+       99.76,
+       100.57,
+       101.29,
+       97.33,
+       98.39
+      ]
+     }
+    ]
+   }
+  ],
+  "ai": {
+   "baslik": "Ekonomik güven endeksi Kasım ayında %1,1 artarak 98,4 oldu",
+   "ozet": "Ekonomik güven endeksi Ekim ayında 97,3 iken, Kasım ayında %1,1 oranında artarak 98,4 değerini aldı. Aynı dönemde tüketici, reel kesim, hizmet ve perakende ticaret güven endeksleri yükselirken, inşaat sektörü güven endeksi %3,8 oranında azaldı.",
+   "one_cikanlar": [
+    "Ekonomik güven endeksi %1,1 artarak 98,4 değerini aldı.",
+    "Tüketici güven endeksi %2,4 artışla 86,8 değerine yükseldi.",
+    "İnşaat sektörü güven endeksi %3,8 azalarak 80,2 değerine geriledi.",
+    "Perakende ticaret sektörü güven endeksi %0,9 artışla 113,6 oldu."
+   ],
+   "rakamlar": [
+    {
+     "etiket": "Ekonomik Güven Endeksi",
+     "deger": "98,4",
+     "degisim": "%1,1"
+    },
+    {
+     "etiket": "Tüketici Güven Endeksi",
+     "deger": "86,8",
+     "degisim": "%2,4"
+    },
+    {
+     "etiket": "Reel Kesim Güven Endeksi",
+     "deger": "101,3",
+     "degisim": "%0,2"
+    },
+    {
+     "etiket": "Hizmet Sektörü Güven Endeksi",
+     "deger": "109,9",
+     "degisim": "%0,6"
+    },
+    {
+     "etiket": "Perakende Ticaret Güven Endeksi",
+     "deger": "113,6",
+     "degisim": "%0,9"
+    },
+    {
+     "etiket": "İnşaat Sektörü Güven Endeksi",
+     "deger": "80,2",
+     "degisim": "-%3,8"
+    }
+   ],
+   "model": "gemini-3.8-flash",
+   "dogrulanamayan": []
+  },
+  "detected_at": "2026-11-27T07:00:55+00:00"
+ },
+ {
   "id": 58160,
   "title": "Hizmet, Perakende Ticaret ve İnşaat Güven Endeksleri",
   "period": "Kasım 2026",
